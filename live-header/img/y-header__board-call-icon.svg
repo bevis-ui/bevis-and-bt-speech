@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3,12h8V6H3V12z M12,12h8V6h-8V12z M21,6v6h8V6H21z M3,19h8v-6H3V19z M12,19h8 v-6h-8V19z M21,19h8v-6h-8V19z M21,26h8v-6h-8V26z M12,26h8v-6h-8V26z M3,26h8v-6H3V26z"/>
+</svg>

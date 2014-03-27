@@ -1,0 +1,1442 @@
+/* /Users/mdevils/Work/islets/blocks/common/y-global/y-global.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-global/y-global.styl:end */
+/* /Users/mdevils/Work/islets/blocks/core/y-stylus/y-stylus.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/core/y-stylus/y-stylus.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/_skin/y-header_skin_fluid.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/_skin/y-header_skin_fluid.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_base.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_base.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_icons.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_icons.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_size-m.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_size-m.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_pressed-text.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_pressed-text.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_light.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_light.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_radio.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_radio.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_size-s.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_size-s.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_wide.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_wide.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_icons.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_icons.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_label.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_label.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_size-m.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_size-m.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_size-s.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_size-s.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/_skin/y-services-board_skin_icons.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/_skin/y-services-board_skin_icons.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop/y-suggest-drop_islet-header.styl:begin */
+.y-suggest-drop_islet-header__content {
+  -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.15), 0 8px 25px -5px rgba(0,0,0,0.25);
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.15), 0 8px 25px -5px rgba(0,0,0,0.25);
+  border-top: 1px solid #d9d9d9;
+  margin-top: 19px;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  z-index: 1100;
+  background: #fff;
+}
+.y-suggest-drop_islet-header__items {
+  padding: 0px;
+  margin: 0px;
+}
+.y-suggest-drop_islet-header__group-title {
+  width: 132px;
+  position: absolute;
+  text-align: right;
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop/y-suggest-drop_islet-header.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop-item/y-suggest-drop-item_islet-header.styl:begin */
+.y-suggest-drop-item_islet-header {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  padding: 0 0 0 142px;
+}
+.y-suggest-drop-item_islet-header._selected {
+  background: #ffeba0;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop-item/y-suggest-drop-item_islet-header.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/_skin/y-header_skin_default.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/_skin/y-header_skin_default.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_default.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_default.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_default-active.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_default-active.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_pseudo.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_pseudo.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_default.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/_skin/y-input_skin_default.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/_skin/y-services-board_skin_default.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/_skin/y-services-board_skin_default.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-fog/_skin/y-fog_skin_default.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-fog/_skin/y-fog_skin_default.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop-item/y-suggest-drop-item_islet.styl:begin */
+.y-suggest-drop-item_islet {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  padding: 0 0 0 9px;
+}
+.y-suggest-drop-item_islet._selected {
+  background: #ffeba0;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop-item/y-suggest-drop-item_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop/y-suggest-drop_islet.styl:begin */
+.y-suggest-drop_islet__content {
+  -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.15), 0 8px 25px -5px rgba(0,0,0,0.25);
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.15), 0 8px 25px -5px rgba(0,0,0,0.25);
+  border-top: 1px solid #d9d9d9;
+  margin-top: -1px;
+  position: absolute;
+  width: 100%;
+  z-index: 1100;
+  background: #fff;
+}
+.y-suggest-drop_islet__items {
+  padding: 0px;
+  margin: 0px;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-suggest-drop/y-suggest-drop_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_air.styl:begin */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/_skin/y-button_skin_air.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/y-input_islet-label-icons.styl:begin */
+.y-input_islet-label-icons {
+/*
+    Дефолтные стили для всех _view инпута
+    */
+  font-family: Arial, sans-serif;
+/* чтобы стили чужих блоков выше не перебивали lh */
+  line-height: normal;
+  display: inline-block;
+/* чтобы при width 100% все было супер. Включая в эти 100% padding и border */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: text;
+/* анимация желтой фокусной рамки. не смотрите что короткая, ее заметно глазом */
+  -webkit-transition: box-shadow 0.05s ease-out;
+  vertical-align: baseline;
+/* рамка инпута. серая сверху. ниже светлее. с небольшой тенькой */
+  border: 1px solid transparent;
+/* зададим цвет для тех кто не поддерживает rgb ие8 */
+  border-color: #b8b8b8;
+  border-color: rgba(0,0,0,0.38) rgba(0,0,0,0.27) rgba(0,0,0,0.16);
+/* фон отображается под паддингом */
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+/* белый фон внутри */
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -moz-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: -ms-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-color: #fff;
+/* Cтили самого контрола инпута */
+/* Cтили обертки инпута */
+/* Cтили серого текста подсказки(в серпе кол-во найденных результатов) прям в инпуте. Не путать с placeholder. */
+/* Неактивный инпут */
+/*
+  Инпут размером M.
+*/
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 10px;
+/*
+      Стили префикса. плашка с именем сервиса
+    */
+/* тут шрифт переопределяется до 16. так как случай с префиксом - частный случай
+        они хотели увеличить кегль шрифта не увеличивая размер инпута. вот и придумали такое.
+        почему не сделать везде 16рх, потому что это заголовочный размер шрифта, не будешь же ты заголовком
+        в инпуте писать :)
+     */
+  font-size: 16px;
+/* текст в префиксе и в инпуте - немного опущен по спеке поэтому не 5рх */
+  padding: 6px 10px 4px;
+/* не в стиле Stylus потому что потом будет 2 правила &__label-link:link:hover */
+/*
+        Контейнер для иконок
+        Список иконок предопределён
+     */
+}
+.y-input_islet-label-icons._focused {
+  border-color: rgba(78,62,2,0.515) rgba(94,76,2,0.42) rgba(117,93,0,0.335);
+  outline: none;
+  -webkit-box-shadow: 0 0 6px 2px rgba(255,204,0,0.7), 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 6px 2px rgba(255,204,0,0.7), 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+}
+.y-input_islet-label-icons__control {
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: none;
+/*
+         прозрачный rgba чтобы не тыкались количество результатов поиска находящиеся на инпуте в ие9
+         z-index не помогает. transparent-ный инпут падает вниз
+         */
+  background-color: rgba(255,255,255,0);
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.y-input_islet-label-icons__control:focus {
+  outline: none;
+}
+.y-input_islet-label-icons__control::-ms-clear {
+/* прячем стандартный крестик IE10 */
+  display: none;
+}
+.y-input_islet-label-icons__context {
+  position: static;
+  display: block;
+/* нужен для помещения обертки в контект. чтобы он хитро встраивался между префиксом и постфиксом */
+  overflow: hidden;
+  height: 100%;
+}
+.y-input_islet-label-icons__responses {
+  font-size: 13px;
+  position: absolute;
+  margin-top: -6px;
+  white-space: nowrap;
+  color: #bbb;
+}
+.y-input_islet-label-icons._disabled {
+  cursor: default;
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: alpha(opacity=60);
+}
+.y-input_islet-label-icons._disabled .y-input_islet-label-icons__control {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.y-input_islet-label-icons__label {
+  font-size: 16px;
+  float: left;
+/* маргином поднимаем плашку на величину паддинга общего блока */
+  margin: -5px 8px -5px -12px;
+  padding: 5px 12px;
+  border-right: 1px solid rgba(0,0,0,0.08);
+/* определяем серый цвет для ие8 */
+  background: #f9f8f2;
+/* хоть и это миличерный цвет, но его видно
+         градиентная такая плашечка из светло-серого в серый
+        */
+  background: rgba(0,0,0,0.04);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.02) 0, rgba(255,225,120,0.1) 100%);
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0.02) 0, rgba(255,225,120,0.1) 100%);
+  background: -o-linear-gradient(bottom, rgba(0,0,0,0.02) 0, rgba(255,225,120,0.1) 100%);
+  background: -ms-linear-gradient(bottom, rgba(0,0,0,0.02) 0, rgba(255,225,120,0.1) 100%);
+  background: linear-gradient(to top, rgba(0,0,0,0.02) 0, rgba(255,225,120,0.1) 100%);
+}
+.y-input_islet-label-icons__label-link,
+.y-input_islet-label-icons__label-link:link,
+.y-input_islet-label-icons__label-link:visited,
+.y-input_islet-label-icons__label-link:active {
+  text-decoration: none;
+  color: #000;
+}
+.y-input_islet-label-icons__label-link:hover {
+  color: #d00;
+}
+.y-input_islet-label-icons__icons {
+  float: right;
+  margin: -6px -12px -6px 0;
+  padding: 5px 9px;
+}
+.y-input_islet-label-icons__close-small {
+  cursor: pointer;
+  display: none;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: url(img/y-input__close-small.svg);
+  opacity: 0.2;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+  filter: alpha(opacity=20);
+}
+.y-input_islet-label-icons__close-small:hover {
+  opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  filter: alpha(opacity=80);
+}
+.y-input_islet-label-icons__close-small._visible {
+  display: inline-block;
+}
+.y-input_islet-label-icons__responses {
+/* в обычном инпуте шрифт 15, в префиксном 16 это стоит учесть для центрирования рез-тов поиска*/
+  line-height: 32px;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-input/y-input_islet-label-icons.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet-board.styl:begin */
+.y-button_islet-board {
+/*
+      Требование - если кнопке не задана тема, кнопка должна выглядеть,
+      как дефолтный браузерный контрол. Нельзя до/пере-определять браузерные стили.
+
+      Поэтому базовые стили всех нопок выносятся не в y-button, а в перечисление тем.
+      Базовые стили здесь - это отмена дефолтных браузерных свойств и отмена дефолтного поведения.
+  */
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+/* TODO: проверь, нужно ли оно во всех темах? В normal не нужно точно */
+  vertical-align: middle;
+  cursor: pointer;
+  outline: 0;
+  text-align: center;
+/*
+        Браузер красит button в серый цвет. Отменяем этот дефолт, потому что
+        дефолтный серый подкладывается под тематические box-shadow и портит малину :)
+
+        Кстати, нельзя делать это свойством background, у него огромный вес.
+    */
+  background-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 32px;
+  height: 32px;
+/* Если первый элемент - иконка, меняем левый отступ у текста*/
+/* Если иконка не одна (есть справа текст), меняем левый оступ у иконки */
+/* Пока справа может быть только иконка уголка вверх/вниз */
+/*
+      Если справа от текста есть элемент (пока это всегда __tick), то
+      уменьшаем правый отступ у текста
+    */
+/* Иконка зрительно нажалась */
+  margin: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+/* Hover: простая серая рамка */
+/*
+        Hover: делаем рамку чуть темнее по сравнению с предыдущим состоянием.
+        Меняется только последний параметр прозрачности
+
+        TODO: найти true stylus way
+    */
+}
+.y-button_islet-board._disabled {
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: alpha(opacity=60);
+  cursor: default;
+}
+.y-button_islet-board__text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #333;
+  border: none;
+  background: none;
+}
+.y-button_islet-board__text:focus {
+  border: none;
+  outline: none;
+}
+.y-button_islet-board__icon,
+.y-button_islet-board__tick {
+  display: inline-block;
+  vertical-align: middle;
+}
+.y-button_islet-board__tick {
+  width: 8px;
+  height: 8px;
+  background: url(img/y-button__tick.svg) 0 0 no-repeat;
+}
+.y-ua_svg_no .y-button_islet-board__tick {
+  width: 9px;
+  background-image: url(img/y-button__tick.png);
+}
+.y-button_islet-board__close-small {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+/* TODO: Нарисуй PNG!   */
+}
+.y-ua_svg_yes .y-button_islet-board__close-small {
+  background-image: url(img/y-button__close-small.svg);
+}
+.y-button_islet-board__text {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+/*
+            ВНИМАНИЕ!
+
+            Чистовая высота кнопки = 32px
+            Чтобы этого добиться в нашей реализации кнопки, нужно внимательно отнестись к размерам контента.
+
+            При отступах внутри кнопки 5px сверху и снизу, кажется, что line-height должен оставаться 22px
+            В других реализациях островных кнопок можно увидеть именно такое значение line-height
+            В нашей реализации этого делать нельзя, потому что скины нашей кнопки реализованы без ::before, а с использованием
+            свойства border:1px solid transparent. То есть кнопка стнаовится на 2px больше в высоту.
+
+
+            Именно поэтому line-height для текстового контента нужно задавать с оглякой на эти 2px
+            Поэтому для _skin_size-m межстрочный интервал — line-height: 20px
+        */
+  line-height: 20px;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+.y-button_islet-board__icon:first-child + .y-button_islet-board__text {
+  padding-left: 6px;
+}
+.y-button_islet-board__icon:not(:only-child) {
+  padding-left: 9px;
+}
+.y-button_islet-board__tick {
+  padding-right: 9px;
+}
+.y-button_islet-board__text:not(:last-child) {
+  padding-right: 6px;
+}
+.y-button_islet-board._pressed .y-button_islet-board__text,
+.y-button_islet-board._pressed .y-button_islet-board__icon,
+.y-button_islet-board._pressed .y-button_islet-board__tick {
+  bottom: -1px;
+}
+.y-button_islet-board:not(._disabled):hover {
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+}
+.y-button_islet-board:not(.y-button_disabled_yes)._pressed {
+  background-image: -webkit-linear-gradient(top, #ffeca6 0%, #fff6d5 100%);
+  background-image: -moz-linear-gradient(top, #ffeca6 0%, #fff6d5 100%);
+  background-image: -o-linear-gradient(top, #ffeca6 0%, #fff6d5 100%);
+  background-image: -ms-linear-gradient(top, #ffeca6 0%, #fff6d5 100%);
+  background-image: linear-gradient(to bottom, #ffeca6 0%, #fff6d5 100%);
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.45), inset 0px 0px 0px 1px rgba(30,23,0,0.25);
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.45), inset 0px 0px 0px 1px rgba(30,23,0,0.25);
+}
+.y-button_islet-board:not(.y-button_disabled_yes)._pressed:hover {
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.45), inset 0px 0px 0px 1px rgba(30,23,0,0.35);
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.45), inset 0px 0px 0px 1px rgba(30,23,0,0.35);
+}
+.y-button_islet-board,
+.y-button_islet-board__icon {
+  width: 38px;
+  height: 38px;
+  line-height: 36px;
+}
+.y-button_islet-board__icon {
+  opacity: 0.25;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+  filter: alpha(opacity=25);
+}
+.y-button_islet-board._pressed .y-button_islet-board__icon {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet-board.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-input/y-input_islet.styl:begin */
+.y-input_islet {
+/*
+    Дефолтные стили для всех _view инпута
+    */
+  font-family: Arial, sans-serif;
+/* чтобы стили чужих блоков выше не перебивали lh */
+  line-height: normal;
+  display: inline-block;
+/* чтобы при width 100% все было супер. Включая в эти 100% padding и border */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: text;
+/* анимация желтой фокусной рамки. не смотрите что короткая, ее заметно глазом */
+  -webkit-transition: box-shadow 0.05s ease-out;
+  vertical-align: baseline;
+/* рамка инпута. серая сверху. ниже светлее. с небольшой тенькой */
+  border: 1px solid transparent;
+/* зададим цвет для тех кто не поддерживает rgb ие8 */
+  border-color: #b8b8b8;
+  border-color: rgba(0,0,0,0.38) rgba(0,0,0,0.27) rgba(0,0,0,0.16);
+/* фон отображается под паддингом */
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+/* белый фон внутри */
+  background-image: -webkit-linear-gradient(top, #fff, #fff);
+  background-image: -moz-linear-gradient(top, #fff, #fff);
+  background-image: -o-linear-gradient(top, #fff, #fff);
+  background-image: -ms-linear-gradient(top, #fff, #fff);
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-color: #fff;
+/* Cтили самого контрола инпута */
+/* Cтили обертки инпута */
+/* Cтили серого текста подсказки(в серпе кол-во найденных результатов) прям в инпуте. Не путать с placeholder. */
+/* Неактивный инпут */
+/*
+  Инпут размером M.
+*/
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 10px;
+}
+.y-input_islet._focused {
+  border-color: rgba(78,62,2,0.515) rgba(94,76,2,0.42) rgba(117,93,0,0.335);
+  outline: none;
+  -webkit-box-shadow: 0 0 6px 2px rgba(255,204,0,0.7), 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 6px 2px rgba(255,204,0,0.7), 0 1px 0 rgba(255,255,255,0.2), inset 0 1px 1px rgba(0,0,0,0.1);
+}
+.y-input_islet__control {
+  font: inherit;
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: none;
+/*
+         прозрачный rgba чтобы не тыкались количество результатов поиска находящиеся на инпуте в ие9
+         z-index не помогает. transparent-ный инпут падает вниз
+         */
+  background-color: rgba(255,255,255,0);
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.y-input_islet__control:focus {
+  outline: none;
+}
+.y-input_islet__control::-ms-clear {
+/* прячем стандартный крестик IE10 */
+  display: none;
+}
+.y-input_islet__context {
+  position: static;
+  display: block;
+/* нужен для помещения обертки в контект. чтобы он хитро встраивался между префиксом и постфиксом */
+  overflow: hidden;
+  height: 100%;
+}
+.y-input_islet__responses {
+  font-size: 13px;
+  position: absolute;
+  margin-top: -6px;
+  white-space: nowrap;
+  color: #bbb;
+}
+.y-input_islet._disabled {
+  cursor: default;
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: alpha(opacity=60);
+}
+.y-input_islet._disabled .y-input_islet__control {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.y-input_islet__responses {
+/* в обычном инпуте шрифт 15, в префиксном 16 это стоит учесть для центрирования */
+  line-height: 30px;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-input/y-input_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/y-services-board_islet.styl:begin */
+.y-services-board_islet {
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px 0 25px;
+  list-style: none;
+/*
+        Иконка в ссылке и её анимация
+
+        Сейчас только Firefox позволяет задать transition для псевдоэлеиментов
+        В других браузерах работает хак через inherit от родительского элемента
+
+        Свойства для &__link вынес в отдельный селектор, чтобы показать, что эти стили нужны исключительно для
+        решения этой задачи
+
+    */
+/* === Иконка в ссылке и её анимация === */
+}
+.y-services-board_islet__item {
+  display: inline-block;
+  width: 160px;
+  height: 100px;
+  text-align: center;
+}
+.y-services-board_islet__all {
+  margin-top: 30px;
+  text-align: center;
+}
+.y-services-board_islet__link {
+  font-size: 15px;
+/* Прижимаю текст к низу блока */
+  line-height: 166px;
+/* Для того, чтобы родить :before*/
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  -webkit-transition: color 0.15s ease-out;
+  -moz-transition: color 0.15s ease-out;
+  -o-transition: color 0.15s ease-out;
+  -ms-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.y-services-board_islet__link:hover {
+  color: #444 !important;
+}
+.y-services-board_islet__link {
+  background-color: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  -webkit-transition: background-position 0.15s ease-out;
+  -moz-transition: background-position 0.15s ease-out;
+  -o-transition: background-position 0.15s ease-out;
+  -ms-transition: background-position 0.15s ease-out;
+  transition: background-position 0.15s ease-out;
+}
+.y-services-board_islet__link:before {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  display: block;
+  content: '';
+  width: 56px;
+  height: 56px;
+  margin-left: -28px;
+  background: inherit;
+}
+.y-services-board_islet__link:hover {
+  background-position: center 0;
+}
+.y-services-board_islet__link[data-service-name=images]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%229%22%20y%3D%2215%22%20width%3D%2236.5%22%20height%3D%2224.5%22%20fill%3D%22%23F6F5F3%22%2F%3E%3Cpolygon%20points%3D%2233%2C25%2022.762%2C32.508%2019%2C30%2010.5%2C36%2011.5%2C36%2011.5%2C38.5%2044.5%2C38.5%2044.5%2C36%2048%2C36%22%20fill%3D%22%23393837%22%2F%3E%3Cpath%20d%3D%22M12%2041l7-11-8%206%201%205zm10-8l5%203%206-11-11%208z%22%20fill%3D%22%2361605F%22%2F%3E%3Ccircle%20cx%3D%2223%22%20cy%3D%2223%22%20r%3D%223%22%20fill%3D%22%23fc0%22%2F%3E%3Cpath%20d%3D%22M8%2012v30h40v-30h-40zm36%2026h-32v-22h32v22z%22%20fill%3D%22%23d00%22%2F%3E%3Cpolygon%20points%3D%2244%2C16%2044%2C38%2012%2C38%208%2C42%2048%2C42%2048%2C12%22%20opacity%3D%22.149%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=maps]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M27%2033l-5%2019c11.875-16.5%2019-23.571%2019-33l-14%2014z%22%20fill%3D%22%233A5E94%22%2F%3E%3Ccircle%20cx%3D%2227%22%20cy%3D%2219%22%20r%3D%2214%22%20fill%3D%22%234975B9%22%2F%3E%3Ccircle%20cx%3D%2227%22%20cy%3D%2219%22%20r%3D%224.994%22%20fill%3D%22%23E8E7E4%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=news]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%2213%22%20y%3D%228%22%20width%3D%2230%22%20height%3D%2235%22%20fill%3D%22%23DDD9CE%22%2F%3E%3Cpath%20d%3D%22M30%2020v3h8v-3h-8zm0%208h8v-3h-8v3zm0%205h8v-3h-8v3z%22%20fill%3D%22%23393837%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2213%22%20width%3D%2220%22%20height%3D%225%22%20fill%3D%22%234975B9%22%2F%3E%3Crect%20x%3D%2218%22%20y%3D%2220%22%20width%3D%2210%22%20height%3D%2213%22%20fill%3D%22%23393837%22%2F%3E%3Cpolygon%20points%3D%2213%2C43%2038%2C48%2038%2C43%22%20fill%3D%22%23BDB7A5%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=mail]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%228%22%20y%3D%2213%22%20width%3D%2240%22%20height%3D%2230%22%20fill%3D%22%23FFCC02%22%2F%3E%3Cpolygon%20points%3D%228%2C13%208%2C15%2028%2C34%2048%2C15%2048%2C13%22%20opacity%3D%22.078%22%2F%3E%3Cpolygon%20points%3D%228%2C13%2028%2C26%2048%2C13%22%20fill%3D%22%23d00%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=video]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%223%22%20y%3D%2213%22%20width%3D%2250%22%20height%3D%2228%22%20fill%3D%22%23393837%22%2F%3E%3Cpolygon%20points%3D%2223%2C19.5%2023%2C34.5%2035.5%2C27%22%20fill%3D%22%23fc0%22%2F%3E%3Cpolygon%20points%3D%2220.977%2C15.572%2020.977%2C38.429%2040.023%2C27%22%20fill%3D%22%23fc0%22%20opacity%3D%22.122%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=translate]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M17%2025l9-7-9-7v4h-7v6h7v4zm-6%202l-9%207%209%207v-4h7v-6h-7v-4z%22%20fill%3D%22%23393837%22%2F%3E%3Cpath%20d%3D%22M40.077%2011h-7.154l-11.923%2029.993%207.154.007%202.533-7.013h11.625l2.535%207.013h7.153l-11.923-30zm-7.75%2018l4.173-12%204.136%2012h-8.309z%22%20fill%3D%22%23d00%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=weather]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20fill%3D%22%23d00%22%20d%3D%22M28%207c-11.045%200-20%208.954-20%2020h40c0-11.046-8.954-20-20-20z%22%2F%3E%3Cpath%20d%3D%22M48%2027c0-11.046-8.954-20-20-20%205.24%209.571%204.5%2020%204.5%2020h15.5z%22%20opacity%3D%22.102%22%2F%3E%3Cpath%20fill%3D%22%23BDB7A5%22%20d%3D%22M34%2C43v2c0%2C0%2C0%2C2-2%2C2s-2-2-2-2V27h-4v18c0%2C0%2C0%2C6%2C6%2C6s6-6%2C6-6v-2H34z%22%2F%3E%3Crect%20x%3D%2226%22%20y%3D%2227%22%20width%3D%224%22%20height%3D%225%22%20opacity%3D%22.2%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=browser]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Ccircle%20cx%3D%2228%22%20cy%3D%2227%22%20r%3D%2220%22%20fill%3D%22%23F6F5F3%22%2F%3E%3Cpath%20d%3D%22M28%207c-2.259%200-4.423.392-6.449%201.083%201.336-.324%202.725-.515%204.162-.515%209.733%200%2017.625%207.895%2017.625%2017.635%200%209.739-7.892%2017.635-17.625%2017.635-9.731%200-17.62-7.891-17.625-17.626-.052.59-.09%201.185-.09%201.788%200%2011.045%208.955%2019.998%2020.002%2019.998s20.002-8.953%2020.002-19.998-8.955-20-20.002-20z%22%20opacity%3D%22.078%22%2F%3E%3Cpath%20d%3D%22M44.573%2012.929c-1.869-2.076-6.221-3.538-13.684%201.35-4.252%202.785-7.727%206.442-7.727%206.442s-7.449-5.183-7.22-9.548c-.879.129-6.633.586-5.893%207.524.792%205.609%207.967%2010.533%208.369%2010.907.127%204.818.593%208.591%201.638%2011.771%201.291%203.926%204.195%206.625%208.176%206.625%202.402%200%204.516-1.562%205.143-2.187-2.304-.973-4.479-2.233-4.891-16.15%205.147-6.579%2013.879-12.29%2017.449-11.396.049-.569.408-3.376-1.36-5.338z%22%20fill%3D%22%23d00%22%2F%3E%3Cpath%20d%3D%22M30.461%2043.129c-1.807.561-3.727.863-5.718.863-1.263%200-2.492-.135-3.687-.367%201.534%202.668%204.014%204.375%207.176%204.375%202.402%200%204.516-1.562%205.143-2.187-1.05-.443-2.072-.95-2.914-2.684zm14.112-30.2c-1.129-1.254-3.171-2.273-6.249-1.815%202.08%202.07%203.675%204.62%204.638%207.461%201.171-.369%202.197-.501%202.972-.308.048-.569.407-3.376-1.361-5.338z%22%20opacity%3D%22.102%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=afisha]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%2224%22%20y%3D%2221.5%22%20width%3D%2214%22%20height%3D%2219.5%22%20fill%3D%22%23F6F5F3%22%2F%3E%3Cpath%20d%3D%22M16%2018v29h24v-29h-24zm20%2020.985h-8v-14.982h8v14.982z%22%20fill%3D%22%23fc0%22%2F%3E%3Crect%20x%3D%2233%22%20y%3D%2218%22%20width%3D%227%22%20height%3D%2226%22%20opacity%3D%22.078%22%2F%3E%3Cpath%20d%3D%22M39.606%2014c-1.334-5.172-6.016-9-11.606-9-5.589%200-10.272%203.828-11.606%209h-2.394v5h28v-5h-2.394zm-25.606%2035h28v-5h-28v5z%22%20fill%3D%22%2361605F%22%2F%3E%3Cpath%20d%3D%22M35%2049h7v-5h-7v5zm4.606-35c-1.334-5.172-6.016-9-11.606-9%200%200%202.08%201.759%202.773%209h4.227v5h7v-5h-2.394z%22%20fill%3D%22%23393837%22%20opacity%3D%22.902%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=disk]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M53.906%2023.692c-1.278-4.774-13.914-5.534-28.223-1.695-14.309%203.838-24.872%2010.819-23.594%2015.594%201.278%204.774%2013.913%205.534%2028.223%201.696%2014.308-3.838%2024.873-10.82%2023.594-15.595zm-28.872-4.131c1.785-.479%202.906-2.083%202.505-3.584-.402-1.5-2.175-2.329-3.96-1.851-1.785.479-2.906%202.084-2.505%203.585.403%201.5%202.175%202.328%203.96%201.85zm8.593-1.729c1.881-.505%201.361-2.341-.368-3.548-1.218-.85-2.765-1.161-3.746-.897-.981.263-1.452%201.115-.925%202.15.749%201.471%203.158%202.799%205.039%202.295zm-16.942%204.702c1.989-.533%203.494-3.026%203.403-4.77-.063-1.229-.945-1.76-1.983-1.481s-2.291%201.383-2.958%202.807c-.947%202.021-.453%203.978%201.538%203.444z%22%20fill%3D%22%23E8E7E4%22%2F%3E%3Cpath%20d%3D%22M2.559%2034.151c-.141.194-.244.354-.312.47.085-.146.191-.304.312-.47zm.028-.038c.242-.325.551-.687.907-1.073-.398.423-.695.786-.907%201.073zm23.078-11.979c14.974-4.024%2022.753-2.381%2025.489-1.38-3.178-1.164-9.976-2.052-13.399-4.045-3.167-1.844-6.534-7.421-14.92-5.167-8.385%202.254-8.406%208.573-10.344%2011.957-1.587%202.772-6.498%206.823-8.998%209.542%202.379-2.529%208.422-7.211%2022.172-10.907zm4.246-8.185c.785-.211%202.021.038%202.996.72%201.383.967%201.798%202.438.294%202.843s-3.431-.661-4.029-1.839c-.422-.83-.046-1.513.739-1.724zm-6.15%201.056c1.287-.346%202.564.253%202.854%201.337.289%201.084-.519%202.243-1.806%202.589s-2.565-.253-2.854-1.337c-.29-1.084.519-2.243%201.806-2.589zm-8.089%204.296c.504-1.078%201.451-1.915%202.236-2.126s1.451.192%201.5%201.122c.068%201.32-1.069%203.209-2.573%203.613-1.505.404-1.878-1.078-1.163-2.609zm37.48%205.62c-1.02-3.819-12.932-3.59-26.712.114-13.781%203.704-24.211%209.48-23.191%2013.298.695%202.603%206.652%204.072%2014.736%203.573%203.327.287%207.798-.188%2012.569-1.471%204.772-1.282%208.883-3.113%2011.62-5.032%207.249-3.622%2011.674-7.88%2010.978-10.482zm-23.079%2013.714c-5.957%201.602-11.018%202.037-11.418.536-.401-1.501%204.12-3.951%2010.078-5.552%205.957-1.602%2011.094-1.748%2011.495-.247.401%201.501-4.198%203.662-10.155%205.263zm21.656-17.651c.159.072.312.144.44.219-.096-.056-.244-.131-.44-.219z%22%20fill%3D%22%234975B9%22%2F%3E%3Cpath%20d%3D%22M51.729%2020.984c.159.072.312.144.44.219-.096-.056-.244-.131-.44-.219zm1.423%203.937c-.972-3.641-11.844-3.6-24.795-.38-12.677%204.294-21.536%209.949-20.521%2013.866.414%201.595%202.452%202.829%205.605%203.568%204.739.168%2010.695-.463%2016.952-2.145%2013.78-3.703%2023.78-11.091%2022.759-14.909zm-1.998-4.168c-3.178-1.164-9.976-2.052-13.399-4.045-2.474-1.44-5.08-5.142-10.094-5.627.054.466.089.938.089%201.419%200%205.006-3.007%209.304-7.31%2011.205%201.608-.537%203.337-1.063%205.225-1.571%2014.974-4.025%2022.753-2.381%2025.489-1.381zm-21.243-6.804c.785-.211%202.021.038%202.996.72%201.383.967%201.798%202.438.294%202.843s-3.431-.661-4.029-1.839c-.422-.83-.046-1.513.739-1.724z%22%20opacity%3D%22.2%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=market]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M17.25%2013l-.234-1.631s-.489-4.369-6.016-4.369h-3s-2%200-2%202l2%202h3c1.75%200%202%202%202%202l4%2024s.5%205%205%205h21s2%20.031%202-2l-2-2h-20c-1.64%200-1.864-1.882-1.864-1.882l-.324-2.118%2022.188-5s5-1%205-5v-11h-30.75z%22%20fill%3D%22%234975B9%22%2F%3E%3Cpath%20d%3D%22M43.012%2025.976l-20.012%203.024-4.5-6.5%202%2011.5.313.006-.001-.006%2022.188-5s5-1%205-5v-5c0%206.215-4.988%206.976-4.988%206.976z%22%20opacity%3D%22.251%22%2F%3E%3Cpath%20d%3D%22M22.5%2044c-1.933%200-3.5%201.567-3.5%203.5%200%201.934%201.567%203.5%203.5%203.5%201.934%200%203.5-1.566%203.5-3.5%200-1.933-1.566-3.5-3.5-3.5zm17%200c-1.933%200-3.5%201.567-3.5%203.5%200%201.934%201.567%203.5%203.5%203.5s3.5-1.566%203.5-3.5c0-1.933-1.567-3.5-3.5-3.5z%22%20fill%3D%22%232B2A2A%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=slovari]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20x%3D%2214.5%22%20y%3D%2239%22%20width%3D%2227.5%22%20height%3D%225%22%20fill%3D%22%23E3E2E0%22%2F%3E%3Cpath%20d%3D%22M17.5%2039h24.5v-32h-24.5s-5.5%200-5.5%205.5v29s0%205.5%205.357%205.5h24.643v-3h-24.5s-2.5%200-2.5-2.5l2.5-2.5z%22%20fill%3D%22%23d00%22%2F%3E%3Cpath%20d%3D%22M17.5%2039h24.5v-3h-24.5s-5.5%200-5.5%205.5c0%200%200%205.5%205.357%205.5h24.643v-3h-24.5s-2.5%200-2.5-2.5l2.5-2.5z%22%20opacity%3D%22.2%22%2F%3E%3Cpolygon%20points%3D%2217%2C7%2017%2C17.92%2021%2C20%2025%2C17.92%2025%2C7%22%20fill%3D%22%23fc0%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=music]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpolygon%20points%3D%2210%2C21%204%2C21%204%2C33%2010%2C33%2024.027%2C44%2024.027%2C10%22%20fill%3D%22%2361605F%22%2F%3E%3Cpath%20d%3D%22M42.413%207.627c-.38-.389-.856-.627-1.412-.627-1.077%200-1.953.9-1.953%202.006%200%20.57.196%201.023.611%201.449%203.517%203.611%205.445%209.605%205.445%2016.545s-1.929%2012.934-5.445%2016.545c-.415.426-.611.879-.611%201.449%200%201.105.876%202.006%201.953%202.006.556%200%201.032-.238%201.412-.627%205.198-5.339%207.599-12.223%207.599-19.373s-2.401-14.034-7.599-19.373zm-6.788%208.314c-.507-.6-.949-.891-1.635-.891-1.076%200-1.952.875-1.952%201.95%200%20.431.16.833.384%201.149%201.265%201.79%201.719%205.382%201.719%208.85s-.454%207.06-1.719%208.85c-.224.316-.384.719-.384%201.149%200%201.075.876%201.95%201.952%201.95.686%200%201.128-.291%201.635-.891%201.478-1.746%203.423-5.633%203.423-11.059s-1.945-9.31-3.423-11.057z%22%20fill%3D%22%23d00%22%2F%3E%3Cpolygon%20points%3D%2210%2C28%2010%2C30%204%2C30%204%2C33%2010%2C33%2023.996%2C44%2023.996%2C33.5%22%20fill%3D%22%23393837%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=taxi]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Crect%20y%3D%2227%22%20width%3D%2211%22%20height%3D%2211%22%20fill%3D%22%2361605F%22%2F%3E%3Crect%20x%3D%2211%22%20y%3D%2216%22%20width%3D%2211%22%20height%3D%2211%22%20fill%3D%22%2361605F%22%2F%3E%3Crect%20x%3D%2222%22%20y%3D%2227%22%20width%3D%2211%22%20height%3D%2211%22%20fill%3D%22%2361605F%22%2F%3E%3Crect%20x%3D%2233%22%20y%3D%2216%22%20width%3D%2211%22%20height%3D%2211%22%20fill%3D%22%2361605F%22%2F%3E%3Crect%20x%3D%2244%22%20y%3D%2227%22%20width%3D%2211%22%20height%3D%2211%22%20fill%3D%22%2361605F%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=auto]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M32%2037c0-3.313%202.687-6%206-6%201.825%200%203.458.818%204.559%202.104.848-1.87%201.349-3.931%201.416-6.102-3.65-4.851-9.437-8.002-15.975-8.002s-12.325%203.151-15.975%208.002c.067%202.171.569%204.232%201.417%206.102%201.1-1.286%202.732-2.104%204.558-2.104%203.313%200%206%202.687%206%206%200%201.724-.731%203.272-1.895%204.367%201.825.726%203.811%201.133%205.895%201.133%202.084%200%204.07-.407%205.895-1.133-1.165-1.095-1.895-2.643-1.895-4.367z%22%20fill%3D%22%23393837%22%2F%3E%3Cpath%20d%3D%22M32%2037c0-3.313%202.687-6%206-6%20.431%200%20.85.047%201.254.134.475-1.291.746-2.679.746-4.134%200-1.652-.334-3.225-.938-4.657-3.169-2.109-6.97-3.343-11.062-3.343s-7.893%201.234-11.062%203.342c-.604%201.432-.938%203.006-.938%204.658%200%201.455.272%202.843.746%204.134.405-.087.824-.134%201.254-.134%203.313%200%206%202.687%206%206%200%20.431-.047.85-.133%201.254%201.29.474%202.678.746%204.133.746s2.843-.271%204.134-.746c-.087-.404-.134-.823-.134-1.254z%22%20fill%3D%22%23fff%22%20opacity%3D%22.2%22%2F%3E%3Ccircle%20cx%3D%2228%22%20cy%3D%2227%22%20r%3D%222%22%20fill%3D%22%23FEC30B%22%2F%3E%3Cpath%20d%3D%22M28%207c-11.046%200-20%208.954-20%2020s8.954%2020%2020%2020%2020-8.954%2020-20-8.954-20-20-20zm0%2035c-8.284%200-15-6.716-15-15s6.716-15%2015-15%2015%206.716%2015%2015-6.716%2015-15%2015z%22%20fill%3D%22%2361605F%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=money]:before {
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2256%22%3E%3Cpath%20d%3D%22M43.548%2020.395h-2.341v14.731c0%202.64-1.122%204.166-4.442%204.936l-21.227%206.056s-1.808.493-1.808-1.161c0-1.376%201.616-1.545%201.866-1.79l-.099.037%2019.37-7.766c1.584-.896%202.885-2.956%202.885-4.583v-23.228c0-3.669-3.544-2.413-4.315-1.947-.846.505-22.439%2012.708-22.439%2012.708-1.584.897-2.881%202.963-2.881%204.59v23.139c0%201.624%202.299%203.789%203.782%203.8v.001h31.649c1.898.005%203.452-1.324%203.452-2.952v-23.614c0-1.628-1.554-2.957-3.452-2.957zm-15.306-1.769c1.491-1.002%202.912-.676%203.171.724.254%201.405-.607%203.188-2.104%204.189-1.489%201-2.912.679-3.168-.726-.254-1.4.606-3.185%202.101-4.187z%22%20fill%3D%22%23ED7402%22%2F%3E%3C%2Fsvg%3E);
+}
+.y-services-board_islet__link[data-service-name=search]:before {
+  top: 23px;
+  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2240%22%20height%3D%2240%22%3E%3Cpath%20d%3D%22M20%204.015c-8.829%200-15.985%207.157-15.985%2015.986%200%208.826%207.156%2015.985%2015.985%2015.985%208.828%200%2015.986-7.159%2015.986-15.985%200-8.829-7.158-15.986-15.986-15.986zm.002%2021.98c-3.31%200-5.994-2.685-5.994-5.993%200-3.31%202.684-5.993%205.994-5.993%203.309%200%205.993%202.684%205.993%205.993s-2.684%205.993-5.993%205.993z%22%2F%3E%3C%2Fsvg%3E);
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-services-board/y-services-board_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet-pseudo.styl:begin */
+.y-button_islet-pseudo {
+/*
+      Требование - если кнопке не задана тема, кнопка должна выглядеть,
+      как дефолтный браузерный контрол. Нельзя до/пере-определять браузерные стили.
+
+      Поэтому базовые стили всех нопок выносятся не в y-button, а в перечисление тем.
+      Базовые стили здесь - это отмена дефолтных браузерных свойств и отмена дефолтного поведения.
+  */
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+/* TODO: проверь, нужно ли оно во всех темах? В normal не нужно точно */
+  vertical-align: middle;
+  cursor: pointer;
+  outline: 0;
+  text-align: center;
+/*
+        Браузер красит button в серый цвет. Отменяем этот дефолт, потому что
+        дефолтный серый подкладывается под тематические box-shadow и портит малину :)
+
+        Кстати, нельзя делать это свойством background, у него огромный вес.
+    */
+  background-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 32px;
+  height: 32px;
+/* Если первый элемент - иконка, меняем левый отступ у текста*/
+/* Если иконка не одна (есть справа текст), меняем левый оступ у иконки */
+/* Пока справа может быть только иконка уголка вверх/вниз */
+/*
+      Если справа от текста есть элемент (пока это всегда __tick), то
+      уменьшаем правый отступ у текста
+    */
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset;
+/*
+        Focused
+        К однопиксельной внешней рамке из .y-button_type_pseudo добавляется желтое свечение
+    */
+/*
+        Hovered
+        Рамка чуть темнее
+    */
+/*
+        Hovered And Focused
+        Рамка чуть темнее + жёлтое свечение
+    */
+  min-width: 32px;
+  height: 32px;
+/* Если первый элемент - иконка, меняем левый отступ у текста*/
+/* Если иконка не одна (есть справа текст), меняем левый оступ у иконки */
+/* Пока справа может быть только иконка уголка вверх/вниз */
+/*
+      Если справа от текста есть элемент (пока это всегда __tick), то
+      уменьшаем правый отступ у текста
+    */
+}
+.y-button_islet-pseudo._disabled {
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: alpha(opacity=60);
+  cursor: default;
+}
+.y-button_islet-pseudo__text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #333;
+  border: none;
+  background: none;
+}
+.y-button_islet-pseudo__text:focus {
+  border: none;
+  outline: none;
+}
+.y-button_islet-pseudo__icon,
+.y-button_islet-pseudo__tick {
+  display: inline-block;
+  vertical-align: middle;
+}
+.y-button_islet-pseudo__tick {
+  width: 8px;
+  height: 8px;
+  background: url(img/y-button__tick.svg) 0 0 no-repeat;
+}
+.y-ua_svg_no .y-button_islet-pseudo__tick {
+  width: 9px;
+  background-image: url(img/y-button__tick.png);
+}
+.y-button_islet-pseudo__close-small {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+/* TODO: Нарисуй PNG!   */
+}
+.y-ua_svg_yes .y-button_islet-pseudo__close-small {
+  background-image: url(img/y-button__close-small.svg);
+}
+.y-button_islet-pseudo__text {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+/*
+            ВНИМАНИЕ!
+
+            Чистовая высота кнопки = 32px
+            Чтобы этого добиться в нашей реализации кнопки, нужно внимательно отнестись к размерам контента.
+
+            При отступах внутри кнопки 5px сверху и снизу, кажется, что line-height должен оставаться 22px
+            В других реализациях островных кнопок можно увидеть именно такое значение line-height
+            В нашей реализации этого делать нельзя, потому что скины нашей кнопки реализованы без ::before, а с использованием
+            свойства border:1px solid transparent. То есть кнопка стнаовится на 2px больше в высоту.
+
+
+            Именно поэтому line-height для текстового контента нужно задавать с оглякой на эти 2px
+            Поэтому для _skin_size-m межстрочный интервал — line-height: 20px
+        */
+  line-height: 20px;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+.y-button_islet-pseudo__icon:first-child + .y-button_islet-pseudo__text {
+  padding-left: 6px;
+}
+.y-button_islet-pseudo__icon:not(:only-child) {
+  padding-left: 9px;
+}
+.y-button_islet-pseudo__tick {
+  padding-right: 9px;
+}
+.y-button_islet-pseudo__text:not(:last-child) {
+  padding-right: 6px;
+}
+.y-button_islet-pseudo:focus {
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset, 0 0 6px 2px rgba(255,204,0,0.7);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.2) inset, 0 0 6px 2px rgba(255,204,0,0.7);
+}
+.y-button_islet-pseudo:not(._disabled):hover {
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.35) inset;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.35) inset;
+}
+.y-button_islet-pseudo:not(._disabled):focus:hover {
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.35) inset, 0 0 6px 2px rgba(255,204,0,0.7);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.35) inset, 0 0 6px 2px rgba(255,204,0,0.7);
+}
+.y-button_islet-pseudo__text {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+/*
+            ВНИМАНИЕ!
+
+            Чистовая высота кнопки = 32px
+            Чтобы этого добиться в нашей реализации кнопки, нужно внимательно отнестись к размерам контента.
+
+            При отступах внутри кнопки 5px сверху и снизу, кажется, что line-height должен оставаться 22px
+            В других реализациях островных кнопок можно увидеть именно такое значение line-height
+            В нашей реализации этого делать нельзя, потому что скины нашей кнопки реализованы без ::before, а с использованием
+            свойства border:1px solid transparent. То есть кнопка стнаовится на 2px больше в высоту.
+
+
+            Именно поэтому line-height для текстового контента нужно задавать с оглякой на эти 2px
+            Поэтому для _skin_size-m межстрочный интервал — line-height: 20px
+        */
+  line-height: 20px;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+.y-button_islet-pseudo__icon:first-child + .y-button_islet-pseudo__text {
+  padding-left: 6px;
+}
+.y-button_islet-pseudo__icon:not(:only-child) {
+  padding-left: 9px;
+}
+.y-button_islet-pseudo__tick {
+  padding-right: 9px;
+}
+.y-button_islet-pseudo__text:not(:last-child) {
+  padding-right: 6px;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet-pseudo.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-fog/y-fog_islet.styl:begin */
+.y-fog_islet {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.15);
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-fog/y-fog_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet.styl:begin */
+.y-button_islet {
+/*
+      Требование - если кнопке не задана тема, кнопка должна выглядеть,
+      как дефолтный браузерный контрол. Нельзя до/пере-определять браузерные стили.
+
+      Поэтому базовые стили всех нопок выносятся не в y-button, а в перечисление тем.
+      Базовые стили здесь - это отмена дефолтных браузерных свойств и отмена дефолтного поведения.
+  */
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+/* TODO: проверь, нужно ли оно во всех темах? В normal не нужно точно */
+  vertical-align: middle;
+  cursor: pointer;
+  outline: 0;
+  text-align: center;
+/*
+        Браузер красит button в серый цвет. Отменяем этот дефолт, потому что
+        дефолтный серый подкладывается под тематические box-shadow и портит малину :)
+
+        Кстати, нельзя делать это свойством background, у него огромный вес.
+    */
+  background-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-width: 32px;
+  height: 32px;
+/* Если первый элемент - иконка, меняем левый отступ у текста*/
+/* Если иконка не одна (есть справа текст), меняем левый оступ у иконки */
+/* Пока справа может быть только иконка уголка вверх/вниз */
+/*
+      Если справа от текста есть элемент (пока это всегда __tick), то
+      уменьшаем правый отступ у текста
+    */
+/* Иконка зрительно нажалась */
+  border: 1px solid transparent;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.07);
+  -webkit-background-origin: padding, border;
+  -moz-background-origin: padding, border;
+  background-origin: padding-box, border-box;
+  -webkit-background-clip: padding, border;
+  -moz-background-clip: padding, border;
+  background-clip: padding-box, border-box;
+  background-image: -webkit-linear-gradient(top, #fff, #eee), -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.38));
+  background-image: -moz-linear-gradient(top, #fff, #eee), -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.38));
+  background-image: -o-linear-gradient(top, #fff, #eee), -o-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.38));
+  background-image: -ms-linear-gradient(top, #fff, #eee), -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.38));
+  background-image: linear-gradient(to bottom, #fff, #eee), linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.38));
+/*
+        Focused
+        К однопиксельной внешней рамке из .y-button_type_islet добавляется желтое свечение
+    */
+/*
+        Hovered
+        Меняется только фоновый градиент кнопки
+    */
+/*
+        Pressed
+        Этот мод бросает внутреннюю тень на блок, словно кнопку вдавили
+
+        Внимание! Этот мод всегда должен идти последним в списке других модов, поэтому что
+        нажатое состояние одинаковое и для просто нажатой кнопки и нажатой нопки, на которой
+        до этого стоял фокус
+    */
+}
+.y-button_islet._disabled {
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: alpha(opacity=60);
+  cursor: default;
+}
+.y-button_islet__text {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #333;
+  border: none;
+  background: none;
+}
+.y-button_islet__text:focus {
+  border: none;
+  outline: none;
+}
+.y-button_islet__icon,
+.y-button_islet__tick {
+  display: inline-block;
+  vertical-align: middle;
+}
+.y-button_islet__tick {
+  width: 8px;
+  height: 8px;
+  background: url(img/y-button__tick.svg) 0 0 no-repeat;
+}
+.y-ua_svg_no .y-button_islet__tick {
+  width: 9px;
+  background-image: url(img/y-button__tick.png);
+}
+.y-button_islet__close-small {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+/* TODO: Нарисуй PNG!   */
+}
+.y-ua_svg_yes .y-button_islet__close-small {
+  background-image: url(img/y-button__close-small.svg);
+}
+.y-button_islet__text {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+/*
+            ВНИМАНИЕ!
+
+            Чистовая высота кнопки = 32px
+            Чтобы этого добиться в нашей реализации кнопки, нужно внимательно отнестись к размерам контента.
+
+            При отступах внутри кнопки 5px сверху и снизу, кажется, что line-height должен оставаться 22px
+            В других реализациях островных кнопок можно увидеть именно такое значение line-height
+            В нашей реализации этого делать нельзя, потому что скины нашей кнопки реализованы без ::before, а с использованием
+            свойства border:1px solid transparent. То есть кнопка стнаовится на 2px больше в высоту.
+
+
+            Именно поэтому line-height для текстового контента нужно задавать с оглякой на эти 2px
+            Поэтому для _skin_size-m межстрочный интервал — line-height: 20px
+        */
+  line-height: 20px;
+  padding: 5px 15px;
+  vertical-align: middle;
+}
+.y-button_islet__icon:first-child + .y-button_islet__text {
+  padding-left: 6px;
+}
+.y-button_islet__icon:not(:only-child) {
+  padding-left: 9px;
+}
+.y-button_islet__tick {
+  padding-right: 9px;
+}
+.y-button_islet__text:not(:last-child) {
+  padding-right: 6px;
+}
+.y-button_islet._pressed .y-button_islet__text,
+.y-button_islet._pressed .y-button_islet__icon,
+.y-button_islet._pressed .y-button_islet__tick {
+  bottom: -1px;
+}
+.y-button_islet:not(._disabled):focus {
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.07), 0 0 6px 2px rgba(255,204,0,0.7);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.07), 0 0 6px 2px rgba(255,204,0,0.7);
+}
+.y-button_islet:not(._disabled):hover {
+  background-image: -webkit-linear-gradient(top, #fff, #f6f5f3), -webkit-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.4));
+  background-image: -moz-linear-gradient(top, #fff, #f6f5f3), -moz-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.4));
+  background-image: -o-linear-gradient(top, #fff, #f6f5f3), -o-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.4));
+  background-image: -ms-linear-gradient(top, #fff, #f6f5f3), -ms-linear-gradient(top, rgba(0,0,0,0.22), rgba(0,0,0,0.4));
+  background-image: linear-gradient(to bottom, #fff, #f6f5f3), linear-gradient(to bottom, rgba(0,0,0,0.22), rgba(0,0,0,0.4));
+}
+.y-button_islet:not(._disabled)._pressed {
+  -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,0.2) inset, 0 1px 0 rgba(255,255,255,0.2);
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,0.2) inset, 0 1px 0 rgba(255,255,255,0.2);
+/*
+            По дизайну верхняя кромка кнопка становится тёмной.
+            Думаю, это закон преломления света на гранях :)
+
+            Без псевдоэлемента смог реализовать это только бордером
+        */
+  border-top: 1px solid rgba(0,0,0,0.25);
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-button/y-button_islet.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/y-header_islet-search.styl:begin */
+.y-header_islet-search__info {
+  height: 42px;
+}
+.y-header_islet-search__info {
+  float: right;
+/* Отталкиваюсь от срединной части шапки согласно гайдам */
+  margin-left: 16px;
+}
+.y-header_islet-search__wrapper {
+  position: relative;
+  z-index: 1100;
+  min-width: 645px;
+  padding: 14px 20px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  height: 42px;
+}
+.y-header_islet-search__board {
+  position: absolute;
+  top: -999px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  -o-transition: top 0.15s ease-out;
+  -ms-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+  z-index: 1040;
+  background: #fff;
+}
+.y-header_islet-search._board_opened .y-header_islet-search__board {
+  top: 70px;
+}
+.y-header_islet-search__arrow {
+/* 117 = 97(logo) + 20(padding-right)  */
+  margin: 0 0 0 117px;
+  padding: 0;
+/*
+            Главная составляющая резиновой раскладки
+
+            Задаёт новый контекст для блока, поэтому остаётся на той же строке,
+            что и рядом расположенный флоут с юзерской частью
+        */
+  overflow: hidden;
+}
+.y-header_islet-search__arrow {
+  display: inline-block;
+  max-width: 620px;
+/* По дизайну внутри стрелки точновыверенные отступы */
+  padding: 5px 25px 5px 5px;
+/* Все версии */
+  background-repeat: no-repeat;
+  background-position: right center;
+/* Дряхлые версии браузеров */
+  background-color: #fd0;
+  /*background-image: url(img/y-header_skin_islet__arrow.png);*/
+/* Свежие версии браузеров */
+  background-image: url(img/y-header_skin_islet__arrow.svg);
+  position: relative;
+}
+.y-header_islet-search__logo {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  width: 95px;
+  height: 37px;
+}
+.y-ua_svg_yes .y-header_islet-search__logo-img {
+  display: none;
+}
+.y-ua_svg_yes .y-header_islet-search__logo._lang_ru {
+  background-image: url(img/y-header_skin_islet__logo-ru.svg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+.y-header_islet-search__user,
+.y-header_islet-search__user::before,
+.y-header_islet-search__userpic,
+.y-header_islet-search__username {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+.y-header_islet-search__user {
+  position: relative;
+}
+.y-header_islet-search__user::before,
+.y-header_islet-search__userpic {
+  width: 42px;
+  height: 42px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.y-header_islet-search__user::before {
+  position: absolute;
+  content: '';
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+}
+.y-header_islet-search__username {
+  font: 15px/80% Arial, Helvetica, sans-serif;
+  max-width: 140px;
+  white-space: nowrap;
+  color: #000;
+}
+.y-header_islet-search__user:hover .y-header_islet-search__username,
+.y-header_islet-search__username:first-letter {
+  color: #f00;
+}
+.y-header_islet-search__userpic + .y-header_islet-search__username {
+  margin-left: 10px;
+}
+.y-header_islet-search__board-call + .y-header_islet-search__user {
+  margin-left: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .y-header_islet-search__username {
+    display: none;
+  }
+}
+.y-header_islet-search__service-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  display: -moz-inline-box;
+  display: inline-block;
+  margin: 0;
+/* По дизайну внутри стрелки точновыверенные отступы */
+  padding-left: 9px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000;
+}
+.y-header_islet-search__form {
+  max-width: 620px;
+  height: 32px;
+}
+.y-header_islet-search__form .y-header_islet-search__button {
+  float: right;
+/* Отступ между полем поиска и кнопкаой Найти согласно SERP-спецификации */
+  margin-left: 5px;
+}
+.y-header_islet-search__form .y-header_islet-search__input {
+/* Задаёт новый контекст для блока, поэтому остаётся на той же строке, что и рядом расположенный флоут с кнопкой */
+  overflow: hidden;
+}
+.y-header_islet-search__board-call {
+  width: 38px;
+  height: 38px;
+  line-height: 34px;
+}
+.y-header_islet-search__board-call-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  background: url(img/y-header__board-call-icon.png) center no-repeat;
+}
+.y-ua_svg_yes .y-header_islet-search__board-call-icon {
+  background-image: url(img/y-header__board-call-icon.svg);
+}
+.y-header_islet-search__arrow {
+  display: block;
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-header/y-header_islet-search.styl:end */
+/* /Users/mdevils/Work/islets/blocks/common/y-header/y-header_islet.styl:begin */
+.y-header_islet__info {
+  height: 42px;
+}
+.y-header_islet__info {
+  float: right;
+/* Отталкиваюсь от срединной части шапки согласно гайдам */
+  margin-left: 16px;
+}
+.y-header_islet__wrapper {
+  position: relative;
+  z-index: 1100;
+  min-width: 645px;
+  padding: 14px 20px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+  height: 42px;
+}
+.y-header_islet__board {
+  position: absolute;
+  top: -999px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  -o-transition: top 0.15s ease-out;
+  -ms-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+  z-index: 1040;
+  background: #fff;
+}
+.y-header_islet._board_opened .y-header_islet__board {
+  top: 70px;
+}
+.y-header_islet__arrow {
+/* 117 = 97(logo) + 20(padding-right)  */
+  margin: 0 0 0 117px;
+  padding: 0;
+/*
+            Главная составляющая резиновой раскладки
+
+            Задаёт новый контекст для блока, поэтому остаётся на той же строке,
+            что и рядом расположенный флоут с юзерской частью
+        */
+  overflow: hidden;
+}
+.y-header_islet__arrow {
+  display: inline-block;
+  max-width: 620px;
+  min-height: 32px;
+/* По дизайну внутри стрелки точновыверенные отступы */
+  padding: 5px 25px 5px 5px;
+/* Все версии */
+  background-repeat: no-repeat;
+  background-position: right center;
+/* Дряхлые версии браузеров */
+  background-color: #fd0;
+  background-image: url(img/y-header_skin_islet__arrow.png);
+/* Свежие версии браузеров */
+  background-image: url(img/y-header_skin_islet__arrow.svg);
+  position: relative;
+}
+.y-header_islet__logo {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  width: 95px;
+  height: 37px;
+}
+.y-ua_svg_yes .y-header_islet__logo-img {
+  display: none;
+}
+.y-ua_svg_yes .y-header_islet__logo._lang_ru {
+  background-image: url(img/y-header_skin_islet__logo-ru.svg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+.y-header_islet__user,
+.y-header_islet__user::before,
+.y-header_islet__userpic,
+.y-header_islet__username {
+  display: -moz-inline-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+.y-header_islet__user {
+  position: relative;
+}
+.y-header_islet__user::before,
+.y-header_islet__userpic {
+  width: 42px;
+  height: 42px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.y-header_islet__user::before {
+  position: absolute;
+  content: '';
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.15);
+}
+.y-header_islet__username {
+  font: 15px/80% Arial, Helvetica, sans-serif;
+  max-width: 140px;
+  white-space: nowrap;
+  color: #000;
+}
+.y-header_islet__user:hover .y-header_islet__username,
+.y-header_islet__username:first-letter {
+  color: #f00;
+}
+.y-header_islet__userpic + .y-header_islet__username {
+  margin-left: 10px;
+}
+.y-header_islet__board-call + .y-header_islet__user {
+  margin-left: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .y-header_islet__username {
+    display: none;
+  }
+}
+.y-header_islet__service-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  display: -moz-inline-box;
+  display: inline-block;
+  margin: 0;
+/* По дизайну внутри стрелки точновыверенные отступы */
+  padding-left: 9px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000;
+}
+.y-header_islet__form {
+/* TODO: Сверить с гайдами, какая максимальная ширина шапки на полном экране? */
+  max-width: 620px;
+  height: 32px;
+}
+.y-header_islet__form .y-header_islet__button {
+  float: right;
+/* Отступ между полем поиска и кнопкаой Найти согласно SERP-спецификации */
+  margin-left: 5px;
+}
+.y-header_islet__form .y-header_islet__input {
+/* Задаёт новый контекст для блока, поэтому остаётся на той же строке, что и рядом расположенный флоут с кнопкой */
+  overflow: hidden;
+}
+.y-header_islet__board-call {
+  width: 38px;
+  height: 38px;
+  line-height: 34px;
+}
+.y-header_islet__board-call-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  background: url(img/y-header__board-call-icon.png) center no-repeat;
+}
+.y-ua_svg_yes .y-header_islet__board-call-icon {
+  background-image: url(img/y-header__board-call-icon.svg);
+}
+/* /Users/mdevils/Work/islets/blocks/common/y-header/y-header_islet.styl:end */

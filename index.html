@@ -1,0 +1,980 @@
+<!DOCTYPE HTML>
+<html lang="en" class="y-ua_svg_yes">
+<head>
+    <title>BEViS & bt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=792, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel='stylesheet' href='shower/themes/ribbon/styles/screen.css'>
+    <link rel='stylesheet' href='index.css'>
+</head>
+<body class="list">
+<header class="caption">
+    <h1>BEViS & bt</h1>
+    <p>Марат Дулин, Вадим Макишвили</p>
+    <p>CodeFest 2014</p>
+</header>
+<!--
+<section class='slide cover'>
+    <div class='slidein'>
+        <img src="pictures/yandex.png" alt="">
+    </div>
+</section>
+-->
+
+<section class='slide cover' id='Cover'>
+    <div class='slidein'>
+        <div class='title'>
+            <div class="name">BEViS</div>
+            <br>
+            <div class="slogan">& bt</div>
+        </div>
+        <p class="note"></p>
+
+        <div class="we">
+            <img src="pictures/people/beavis-and-butthead.png" class="folks"/>
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Smarty, Django и т.п.</h2>
+        <div class="schema">
+
+            <div class="fs controller">контроллер</div>
+            <div class="fs view">шаблоны<br>представления</div>
+            <div class="fs html">HTML</div>
+
+            <img src="pictures/mvc.svg" class="svg">
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>BEViS</h2>
+        <div class="schema">
+            <div class="logo"><img src="pictures/server/nodejs.png"></div>
+
+            <div class="fs controller">index<mark>.page.js</mark></div>
+            <div class="fs view">index<mark>.bt.js</mark></div>
+            <div class="fs html">HTML</div>
+            <img src="pictures/mvc.svg" class="svg">
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>BEViS controller</h2>
+
+        <pre class=''>
+            <code>pages.declare('index', function () {</code>
+            <code>    return [</code>
+            <code>        { block: 'header' },</code>
+            <code>        { block: 'authorization' }</code>
+            <code>    ];</code>
+            <code>});</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide cover'>
+    <div class='slidein'>
+        <img src="pictures/morning1.jpg" alt="">
+    </div>
+</section>
+
+<section class='slide cover'>
+    <div class='slidein'>
+        <div style="position: absolute; bottom: -20px; right: -30px; text-align: right;">
+            <h2 style="font-size: 50%; color: #fff">И.И.Шишкин, К.А.Савицкий<br>&laquo;Утро в сосновом бору&raquo;<br>1889</h2>
+        </div>
+
+        <img src="pictures/morning2.jpg" alt="">
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>Блок —<br> простой JSON</h2>
+    </div>
+</section>
+
+<section class='slide cover'>
+    <div class='slidein'>
+        <img src="pictures/bread.jpg" alt="">
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Простой JSON</h2>
+
+        <pre class='medium'>
+            <code>[</code>
+            <code>  { block: 'header' },</code>
+            <code>  { block: 'authorization' }</code>
+            <code>];</code>
+        </pre>
+
+        <div class="next" style="position: absolute; left: 455px; top: 0">
+            <h2>Сложный HTML</h2>
+
+            <pre class='smallest' style="position: absolute; left: 20px; top: 124px;">
+                <code>&lt;div class="header"&gt;</code>
+                <code>    &lt;a class="header__logo" href="/"&gt;</code>
+                <code>        &lt;img src="logo.png"&gt;</code>
+                <code>    &lt;/a&gt; </code>
+                <code>    &lt;h1 class="header__title"&gt;Демо-страница&lt;/h1&gt; </code>
+                <code>    &lt;h2 class="header__slogan"&gt;Слоган&lt;/h2&gt; </code>
+                <code>    &lt;a class="header__rss" href="/?rss"&gt;</code>
+                <code>        &lt;img src="rss.png"&gt;</code>
+                <code>    &lt;/a&gt;</code>
+                <code>&lt;/div> </code>
+                <code>&lt;form class="authorization" action="/?task=login"&gt;</code>
+                <code>    &lt;label class="authorization__label"&gt;Логин&lt;/label&gt;</code>
+                <code>    &lt;input class="authorization__login" value=""&gt;</code>
+                <code>    &lt;label class="authorization__label"&gt;Пароль&lt;/label&gt;</code>
+                <code>    &lt;input class="authorization__password" </code>
+                <code>        value="" type="password"&gt;</code>
+                <code>    &lt;button class="authorization__submit"&gt;</code>
+                <code>        Войти</code>
+                <code>    &lt;/button&gt;</code>
+                <code>&lt;/form&gt;</code>
+
+            </pre>
+
+        </div>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>Одного имени <br>достаточно</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Имя блока</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    друг: 'Марат'</code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Необязательные параметры</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    суп: 'солянка', </code>
+            <code>    <mark class="comment">сметанаНужна: 'да'</mark></code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Простота — это важно!</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    block: 'header', </code>
+            <code>    <mark class="comment">showSearch: true</mark></code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Блок - это</h2>
+
+        <ol>
+            <li>HTML-cтруктура</li>
+            <li>CSS-представление</li>
+            <li>JS-поведение</li>
+        </ol>
+    </div>
+</section>
+
+<section class="slide shout">
+    <div class='slidein'>
+        <h2>HTML</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Императивные шаблоны</h2>
+
+        <pre class='small'>
+            <code>&lt;p&gt;Уважаемый <mark class="one">{{ person }}</mark>&lt;/p&gt;</code>
+            <code>&lt;p&gt;Ваш заказ от <mark class="one">{{ date:"F j, Y" }}</mark> принят на обработку.&lt;/p&gt;</code>
+            <code>&lt;p&gt;Пожалуйста, убедитесь, что всё выбрано верно:&lt;/p&gt;</code>
+            <code> </code>
+            <code>&lt;ul&gt;</code>
+            <code><mark class="one">{% for item in item_list %}</mark></code>
+            <code>    &lt;li&gt;<mark class="one">{{ item }}</mark>&lt;/li&gt;</code>
+            <code><mark class="one">{% endfor %}</mark></code>
+            <code>&lt;/ul&gt;</code>
+            <code> </code>
+            <code><mark class="one">{% if ordered_warranty %}</mark></code>
+            <code>    &lt;p&gt;Гарантия - 12 месяцев.&lt;/p&gt;</code>
+            <code><mark class="one">{% else %}</mark></code>
+            <code>    &lt;p&gt;Со всеми неполадками обращайтесь в наш сервиcный центр.&lt;/p&gt;</code>
+            <code><mark class="one">{% endif %}</mark></code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Smarty</h2>
+        <div class="schema">
+            <div class="fs controller">контроллер</div>
+            <div class="fs view"><mark>императивные<br>шаблоны</mark></div>
+            <div class="fs html">HTML</div>
+
+            <img src="pictures/mvc.svg" class="svg">
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Smarty</h2>
+        <div class="schema">
+            <div class="fs controller">index.php</div>
+            <div class="fs view">index<mark>.tpl.php</mark></div>
+            <div class="fs html">HTML</div>
+
+            <img src="pictures/mvc.svg" class="svg">
+        </div>
+    </div>
+</section>
+
+<section class="slide shout">
+    <div class='slidein'>
+        <h2>Декларативные шаблоны</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Что это?</h2>
+
+        <pre class=''>
+            <code>h1 {</code>
+            <code>    color: red; </code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Исходный JSON</h2>
+
+        <pre class='small-medium'>
+            <code>pages.declare('index', function () {</code>
+            <code>    return {</code>
+            <code>        block: 'header'</code>
+            <code>    }</code>
+            <code>});</code>
+        </pre>
+
+        <h2>Финальный HTML</h2>
+
+        <pre class='small-medium'>
+            <code>&lt;div class="header"&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Абстрактный декларативный шаблон</h2>
+
+        <pre class=''>
+            <code>header {</code>
+            <code>    <mark>tag: div;</mark></code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Абстрактный декларативный шаблон</h2>
+
+        <pre class=''>
+            <code>header {</code>
+            <code>    <mark>tag: div;</mark></code>
+            <code>}</code>
+        </pre>
+
+        <h2>Реальный декларативный шаблон</h2>
+
+        <pre class=''>
+            <code>bt.match('header', function (ctx) {</code>
+            <code>    <mark>ctx.setTag('div');</mark> </code>
+            <code>});</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Делаем шаблон умнее</h2>
+
+        <pre class='small-medium'>
+            <code>bt.match('<mark>header</mark>', function (ctx) {</code>
+            <code>    ctx.setTag('<mark>div</mark>');</code>
+            <code>    ctx.setContent({ <mark class="comment">// Генерим внутри шапки новый JSON</mark> </code>
+            <code>        elem: 'title', <mark class="comment">// создаём элемент title в содержимом</mark></code>
+            <code>        titleText: 'CodeFest 2014' <mark class="comment">// параметром передаём в него текст</mark></code>
+            <code>    });</code>
+            <code>});</code>
+        </pre>
+    </div>
+</section>
+
+<!--
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Делаем шаблон умнее</h2>
+
+        <pre class='small-medium'>
+            <code>bt.match('<mark>header__title</mark>', function (ctx) {</code>
+            <code>    ctx.setTag('<mark>h1</mark>');</code>
+            <code> </code>
+            <code>    <mark class="comment">// Задаём содержимое заголовку из параметра titleText</mark></code>
+            <code>    ctx.setContent(</code>
+            <code>        ctx.getParam('titleText')</code>
+            <code>    );</code>
+            <code>});</code>
+        </pre>
+    </div>
+</section>
+
+-->
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Делаем шаблон умнее</h2>
+
+        <pre class='small-medium'>
+            <code>bt.match('<mark>header</mark>', function (ctx) {</code>
+            <code>    ctx.setTag('<mark>div</mark>');</code>
+            <code>    ctx.setContent({</code>
+            <code>        elem: 'title',</code>
+            <code>        titleText: 'CodeFest 2014'</code>
+            <code>    });</code>
+            <code>});</code>
+            <code>bt.match('<mark>header__title</mark>', function (ctx) {</code>
+            <code>    ctx.setTag('<mark>h1</mark>');</code>
+            <code>    ctx.setContent(</code>
+            <code>        ctx.getParam('titleText')</code>
+            <code>    );</code>
+            <code>});</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Результат</h2>
+
+        <pre class=''>
+            <code>&lt;div class="header"&gt;</code>
+            <code>    &lt;h1 class="header__title"&gt;CodeFest 2014&lt;/h1&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Простой JSON</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    block: "y-header", </code>
+            <code> </code>
+            <code>    <mark class="comment">view: "islet-search",</mark></code>
+            <code>    <mark class="comment">showSearch: true,</mark></code>
+            <code>    <mark class="comment">showSuggest: true</mark></code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Простой JSON</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    block: "y-header", </code>
+            <code> </code>
+            <code>    <mark class="comment">view: "islet-search",</mark></code>
+            <code>    <mark class="comment">showSearch: true,</mark></code>
+            <code>    <mark class="comment">showSuggest: true</mark></code>
+            <code>}</code>
+        </pre>
+
+        <div style="position: absolute; top: 0; left: 450px;">
+
+            <h2>Сложный HTML</h2>
+
+            <pre class='smallest2'>
+                <code>&lt;header class="y-header_islet-search _init _live-events" data-block="y-header" data-options="{&quot;mixins&quot;:[{&quot;name&quot;:&quot;location-form&quot;}]}"&gt;</code>
+                <code>    &lt;div class="y-header_islet-search__wrapper"&gt;</code>
+                <code>        &lt;a class="y-header_islet-search__logo _lang_ru" href="http://www.yandex.ru"&gt;</code>
+                <code>            &lt;img class="y-header_islet-search__logo-img" alt="Яндекс" src="//yandex.st/lego/_/X31pO5JJJKEifJ7sfvuf3mGeD_8.png"&gt;</code>
+                <code>        &lt;/a&gt;</code>
+                <code>        &lt;div class="y-header_islet-search__info"&gt;</code>
+                <code>            &lt;span class="y-header_islet-search__board-call"&gt;</code>
+                <code>                &lt;a class="y-button_islet-board _init" data-block="y-button" role="button" href="http://www.yandex.ru/all"&gt;</code>
+                <code>                    &lt;span class="y-button_islet-board__icon"&gt;</code>
+                <code>                        &lt;div class="y-header_islet__board-call-icon"&gt;&lt;/div&gt;</code>
+                <code>                    &lt;/span&gt;</code>
+                <code>                &lt;/a&gt;</code>
+                <code>            &lt;/span&gt;</code>
+                <code>        &lt;/div&gt;</code>
+                <code>        &lt;div class="y-header_islet-search__arrow"&gt;</code>
+                <code>            &lt;form class="y-header_islet-search__form _live-events" action="/"&gt;</code>
+                <code>                &lt;div class="y-header_islet-search__button"&gt;</code>
+                <code>                    &lt;button class="y-button_islet _init" data-block="y-button" tabindex="2" type="submit"&gt;&lt;span class="y-button_islet__text"&gt;Найти&lt;/span&gt;&lt;/button&gt;</code>
+                <code>                &lt;/div&gt;</code>
+                <code>                &lt;div class="y-header_islet-search__input"&gt;</code>
+                <code>                    &lt;div class="y-suggest_islet _init" data-block="y-suggest"</code>
+                <code>                         data-options="{&quot;options&quot;:{&quot;suggestDropOptions&quot;:{&quot;view&quot;:&quot;islet-header&quot;,&quot;suggestDropItemView&quot;:&quot;islet-header&quot;},&quot;dataProviderOptions&quot;:{&quot;queryParams&quot;:{&quot;lang&quot;:&quot;ru-RU&quot;,&quot;search_type&quot;:&quot;all&quot;,&quot;fullpath&quot;:1,&quot;v&quot;:5},&quot;posQueryParamName&quot;:&quot;pos&quot;,&quot;textQueryParamName&quot;:&quot;part&quot;,&quot;disableGrouping&quot;:true}},&quot;mixins&quot;:[{&quot;name&quot;:&quot;header-suggest-configurer&quot;}]}"&gt;</code>
+                <code>                        &lt;span class="y-input_islet-label-icons _init" data-block="y-input"&gt;&lt;span class="y-input_islet-label-icons__label"&gt;&lt;a class="y-input_islet-label-icons__label-link" href="/"&gt;Карты&lt;/a&gt;&lt;/span&gt;&lt;span</code>
+                <code>                                class="y-input_islet-label-icons__icons"&gt;&lt;span class="y-input_islet-label-icons__close-small"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="y-input_islet-label-icons__context"&gt;&lt;input</code>
+                <code>                                class="y-input_islet-label-icons__control" id="uniq0" name="text" value="" autocomplete="off"&gt;&lt;/span&gt;&lt;/span&gt;</code>
+                <code>                        &lt;div class="y-suggest-drop_islet-header" data-block="y-suggest-drop" data-options="{&quot;options&quot;:{&quot;wide&quot;:true}}"&gt;&lt;/div&gt;</code>
+                <code>                    &lt;/div&gt;</code>
+                <code>                &lt;/div&gt;</code>
+                <code>            &lt;/form&gt;</code>
+                <code>        &lt;/div&gt;</code>
+                <code>    &lt;/div&gt;</code>
+                <code>    &lt;div class="y-header_islet-search__board"&gt;&lt;/div&gt;</code>
+                <code>&lt;/header&gt;</code>
+            </pre>
+        </div>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <div id="live-header">
+            <textarea id="live-header-code">{
+    block: 'y-header',
+
+    view: 'islet-search',
+    showBoard: true,
+    serviceName: 'Карты',
+    searchQuery: 'Новосибирск'
+}</textarea>
+
+            <div id="live-header-demo"></div>
+
+            <script src="live-header/live-header.bt.js" type="text/javascript"></script>
+            <script src="live-header/live-header.js" type="text/javascript"></script>
+            <link rel='stylesheet' href='live-header/live-header.css'/>
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Чем декларативные шаблоны лучше?</h2>
+
+        <ol>
+            <li>Даже в большом проекте остаются простыми</li>
+            <li>Гарантируют внешнее API блока</li>
+        </ol>
+
+        <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">BEViS - это как Web Components, только работает уже сегодня ;)</p>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>CSS</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Мы так не делаем</h2>
+
+        <pre class="">
+            <code>&lt;div class="<mark class="one">header</mark> <mark class="one">authorization</mark>"&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide cover'>
+    <div class='slidein'>
+        <div style="position: absolute; bottom: -20px; right: -30px; text-align: right;">
+            <h2 style="font-size: 50%; color: #000000">Г.Данелия, 1977<br>В.Кикабидзе<br>&laquo;Мимино&raquo;</h2>
+        </div>
+
+        <img src="pictures/mimino.jpg" alt="">
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>View</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    block: "header", </code>
+            <code>    <mark>view: "search"</mark></code>
+            <code>}</code>
+        </pre>
+
+        <div class="next">
+            <h2>Финальный HTML</h2>
+
+            <pre class="">
+                <code>&lt;div class="header<mark>_search</mark>"&gt;</code>
+                <code>&lt;/div&gt;</code>
+            </pre>
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Кто-то пишет так</h2>
+
+        <pre class="">
+            <code>&lt;div class="<mark class="one">button</mark> <mark class="two">button_theme_normal</mark> <mark class="two">button_shadow_yes</mark>"&gt;</code>
+            <code>    нажми меня</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Бивис делает иначе</h2>
+
+        <pre class="">
+            <code>&lt;div class="<mark class="one">button_normal-shadow</mark>"&gt;</code>
+            <code>    нажми меня</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Простой JSON</h2>
+
+        <pre class=''>
+            <code>{</code>
+            <code>    block: "button", </code>
+            <code>    view: "normal-shadow"</code>
+            <code>}</code>
+        </pre>
+
+        <h2>Простой HTML</h2>
+
+        <pre class="">
+            <code>&lt;div class="<mark class="one">button_normal-shadow</mark>"&gt;</code>
+            <code>    нажми меня</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>CSS-<br>препроцессор</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Публичные селекторы</h2>
+
+        <pre class='medium'>
+            <code><mark class="one">.button</mark> {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>}</code>
+            <code> </code>
+            <code> </code>
+            <code><mark class="one">.button_normal-shadow</mark> {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>    skin-shadow();</code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Публичные селекторы</h2>
+
+        <pre class='medium'>
+            <code>.button {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>}</code>
+            <code> </code>
+            <code> </code>
+            <code>.button_normal-shadow {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>    skin-shadow();</code>
+            <code>}</code>
+        </pre>
+
+        <div style="position: absolute; left: 455px; top: 0">
+            <h2>Приватные функции</h2>
+
+            <pre class='medium' style="position: absolute; left: 20px; top: 124px;">
+                <code><mark class="one">skin-common()</mark> {</code>
+                <code>    <mark class="comment">/* общие стили кнопки */</mark></code>
+                <code>}</code>
+                <code> </code>
+                <code><mark class="one">skin-theme-normal()</mark> {</code>
+                <code>    <mark class="comment">/* цвета кнопки */</mark></code>
+                <code>}</code>
+                <code> </code>
+                <code><mark class="one">skin-shadow()</mark> {</code>
+                <code>    <mark class="comment">/* тень под кнопкой */</mark></code>
+                <code>}</code>
+            </pre>
+        </div>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Все конфликты под контролем</h2>
+
+        <pre class='medium'>
+            <code>.button {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>    <mark>/* а здесь разрулил все конфликты этих миксинов */</mark> </code>
+            <code>}</code>
+            <code>    </code>
+            <code>.button_normal-shadow {</code>
+            <code>    skin-common();</code>
+            <code>    skin-theme-normal();</code>
+            <code>    skin-shadow();</code>
+            <code>    <mark>/* а здесь разрулил все конфликты этих миксинов */</mark> </code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>JS</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>В маленьких проектах</h2>
+
+        <pre class="small-medium">
+            <code><mark>$(document).ready(function() {</mark></code>
+            <code>        var form = $('#my-form');</code>
+            <code>        form.submit(onSubmited);</code>
+            <code> </code>
+            <code>        function onSubmited() {</code>
+            <code>            if ($('#my-form .button').hasClass('disabled')) {</code>
+            <code>                return false;</code>
+            <code>            }</code>
+            <code>        }</code>
+            <code><mark>});</mark></code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>В маленьких проектах с модулями</h2>
+
+        <pre class="small">
+            <code><mark>modules.define(</mark></code>
+            <code>    <mark>'form',</mark></code>
+            <code>    <mark>['jquery'],</mark></code>
+            <code>    <mark>function(provide, $) {</mark></code>
+            <code>        var form = $('#my-form');</code>
+            <code>        form.submit(onSubmited);</code>
+            <code> </code>
+            <code>        function onSubmited() {</code>
+            <code>            if ($('#my-form .button').hasClass('disabled')) {</code>
+            <code>                return false;</code>
+            <code>            }</code>
+            <code>        }</code>
+            <code> </code>
+            <code>        <mark>provide(form);</mark></code>
+            <code>    <mark>}</mark></code>
+            <code><mark>);</mark></code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Бивис = Модуль + YBlock-класс</h2>
+
+        <pre class="smallest">
+            <code><mark>modules.define(</mark></code>
+            <code>    <mark>'form',</mark></code>
+            <code>    <mark>['button', 'input', 'y-block'],</mark></code>
+            <code>    <mark>function(provide, button, input, YBlock) {</mark></code>
+            <code>        var Form = inherit(<mark class="two">YBlock</mark>, {</code>
+            <code>            __constructor: function () {</code>
+            <code>                this._submitButton = YButton.find(this);</code>
+            <code>                this._bindTo(this.getDomNode(), 'submit', this._onSubmited);</code>
+            <code>            },</code>
+            <code>            _onSubmited: function (e) {</code>
+            <code>                if (this._submitButton.isDisabled()) {</code>
+            <code>                    e.preventDefault();</code>
+            <code>                } else {</code>
+            <code>                    this.emit('submit');</code>
+            <code>                }</code>
+            <code>            }</code>
+            <code>        });</code>
+            <code>        <mark>provide(form);</mark></code>
+            <code>    <mark>}</mark></code>
+            <code><mark>);</mark></code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Бивис = Модуль + YBlock-класс</h2>
+
+        <ol>
+            <li>Код можно реиспользовать</li>
+            <li>Мы управляем абстракциями, а не DOM-объектами</li>
+        </ol>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Поведение отделено от отображения</h2>
+
+        <pre class="">
+            <code>&lt;div</code>
+            <code>    class="<mark>header</mark>"</code>
+            <code>    data-block="<mark class="one">header</mark>"&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Состояние блока</h2>
+
+        <pre class="medium">
+            <code>&lt;input class="login <mark>_unfilled</mark>" type="text"/&gt;</code>
+            <code></code>
+        </pre>
+        <pre class="medium next">
+            <code><mark class="comment">/* обычное состояние */</mark></code>
+            <code>.login {</code>
+            <code>    ...</code>
+            <code>}</code>
+            <code> </code>
+            <code><mark class="comment">/* тревожное состояние */</mark></code>
+            <code>.login<mark>._unfilled</mark> {</code>
+            <code>    border: 1px solid red;</code>
+            <code>}</code>
+        </pre>
+    </div>
+</section>
+
+<section class='slide shout' id="BEVIS">
+    <div class='slidein'>
+        <div class="abbr">
+            <span>B</span>lock<br>
+            <span>E</span>lement<br>
+            <span>Vi</span>ew<br>
+            <span>S</span>tate
+        </div>
+    </div>
+</section>
+
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>Файлы и сборка</h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Файлы</h2>
+        <pre>
+            <code>blocks/</code>
+            <code>    form/</code>
+            <code>        form.styl</code>
+            <code>        form.js</code>
+            <code>        form.bt.js</code>
+            <code>    header/</code>
+            <code>        header.styl</code>
+            <code>        header.js</code>
+            <code>        header.bt.js</code>
+        </pre>
+
+        <img src="pictures/fs.png" alt="">
+    </div>
+</section>
+
+
+<section class="slide shout" id="enb">
+    <div class='slidein'>
+        <h2 style="font-size: 60px;">ENB-сборщик<br><br><a href="http://github.com/enb-make/enb">http://github.com/enb-make/enb</a></h2>
+    </div>
+</section>
+
+<section class="slide shout" id="enb-config">
+    <div class='slidein'>
+        <h2 style="font-size: 60px;">ENB-конфигуратор<br><br><a href="http://github.com/enb-make/enb">http://enb-make.info/config/</a></h2>
+    </div>
+</section>
+
+<section class="slide shout" id="docs">
+    <div class='slidein'>
+        <h2 style="font-size: 60px;">BEViS-документация<br><br><a href="http://github.com/bevis-ui/docs">http://github.com/bevis-ui/docs</a></h2>
+    </div>
+</section>
+
+<section class='slide'>
+    <div class='slidein'>
+        <h2>Быстрый старт</h2>
+
+        <pre class="small-medium">
+            <code>git clone git@github.com:bevis-ui/bevis-stub.git your-project</code>
+            <code>cd your-project</code>
+            <code>make</code>
+        </pre>
+    </div>
+</section>
+
+<section class="slide shout" id="todo">
+    <div class='slidein'>
+        <h2 style="font-size: 60px;">Todo MVC<br><br><a href="http://github.com/bevis-ui/bevis-todo">http://github.com/bevis-ui/bevis-todo</a></h2>
+    </div>
+</section>
+
+<section class="slide shout" id="blog">
+    <div class='slidein'>
+        <h2 style="font-size: 60px;">Blog Engine<br><br><a href="http://github.com/bevis-ui/bevis-blog">http://github.com/bevis-ui/bevis-blog</a></h2>
+    </div>
+</section>
+
+<section class="slide">
+    <div class='slidein'>
+        <h2>BEViS</h2>
+
+        <ul style="font-size: 28px;">
+            <li>Полноценный сайт на обычном JS</li>
+            <li>Покрыт юнит-тестами на 100%</li>
+            <li>Написан в понятном Сode Style</li>
+        </ul>
+
+        <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">Это серьёзный инструмент с добрым лицом ;)</p>
+
+    </div>
+</section>
+
+<section class="slide shout">
+    <div class='slidein'>
+        <h2><span style="color: #000; margin-right: 40px;">(:</span> Спасибо <span style="color: #000; margin-left: 40px;">;)</span></h2>
+    </div>
+</section>
+
+<section class="slide" id="contacts">
+    <div class="slidein">
+        <header>
+            <h2 style="font-size: 360%;">BEViS & bt</h2>
+        </header>
+
+        <div style="position: absolute; top: 180px; left: -10px;">
+            <ul style="font-size: 100%;">
+                <li>Презентация — <a href="http://bevis-ui.github.io/bevis-and-bt-speech/">bevis-ui.github.io/bevis-and-bt-speech</a></li>
+                <li>TODO MVC — <a href="http://github.com/bevis-ui/bevis-todo">github.com/bevis-ui/bevis-todo</a></li>
+                <li>Blog Engine — <a href="http://github.com/bevis-ui/bevis-blog">github.com/bevis-ui/bevis-blog</a></li>
+                <li>Документация — <a href="http://github.com/bevis-ui/docs">github.com/bevis-ui/docs</a></li>
+            </ul>
+            <ul style="font-size: 100%;">
+                <li>bt — <a href="http://github.com/enb-make/bt">github.com/enb-make/bt</a></li>
+                <li>ENB — <a href="http://github.com/enb-make/enb">github.com/enb-make/enb</a></li>
+                <li>ENB-конфигуратор — <a href="http://github.com/enb-make/enb">enb-make.info/config</a></li>
+            </ul>
+        </div>
+
+        <div style="position: absolute; top: 120px; right: 30px;">
+            <h2 style="font-size: 100%; margin-bottom: 10px;">Марат&nbsp;Дулин</h2>
+            <ul style="font-size: 60%;">
+                <li><a href="mailto:mdevils@yandex.ru">mdevils@yandex.ru</a></li>
+                <li><a href="http://twitter.com/mdevils">twitter.com/mdevils</a></li>
+                <li><a href="http://github.com/mdevils">github.com/mdevils</a></li>
+            </ul>
+            <h2 style="font-size: 100%;margin-bottom: 10px;">Вадим&nbsp;Макишвили</h2>
+            <ul style="font-size: 60%;">
+                <li><a href="mailto:makishvili@yandex.ru">makishvili@yandex.ru</a></li>
+                <li><a href="http://makishvili.com">makishvili.com</a></li>
+            </ul>
+        </div>
+
+        <p style="position: absolute; bottom: 20px; left: 50px;"></p>
+
+        <div class="we">
+            <img src="pictures/people/beavis-and-butthead.png" class="folks"/>
+        </div>
+    </div>
+</section>
+
+<script src="shower/shower.min.js"></script>
+
+<!--
+
+    В качестве наглядных изображений в презентации использованы:
+
+    1. Картина "Утро в сосновом бору", 1889 год.
+       Авторы: Иван Иванович Шишкина и Константин Аполлонович Савицкий
+       http://ru.wikipedia.org/wiki/%D3%F2%F0%EE_%E2_%F1%EE%F1%ED%EE%E2%EE%EC_%EB%E5%F1%F3
+
+    2. Кадр из х/ф "Мимино", 1979 год.
+       Рефиссёр: Георгий Данелия
+       В глваной роли Вахтанг Кикабидзе
+       http://ru.wikipedia.org/wiki/%CC%E8%EC%E8%ED%EE
+
+    3. Герои мультфильма "Beavis & Butthead"
+
+-->
+
+</body>
+</html>
