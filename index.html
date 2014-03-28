@@ -749,14 +749,14 @@
         <pre class="smallest">
             <code><mark>modules.define(</mark></code>
             <code>    <mark>'form',</mark></code>
-            <code>    <mark>['button', 'input', 'y-block'],</mark></code>
-            <code>    <mark>function(provide, button, input, YBlock) {</mark></code>
+            <code>    <mark>['y-button', 'y-block'],</mark></code>
+            <code>    <mark>function(provide, YButton, YBlock) {</mark></code>
             <code>        var Form = inherit(<mark class="two">YBlock</mark>, {</code>
             <code>            __constructor: function () {</code>
             <code>                this._submitButton = YButton.find(this);</code>
-            <code>                this._bindTo(this.getDomNode(), 'submit', this._onSubmited);</code>
+            <code>                this._bindTo(this.getDomNode(), 'submit', this._onSubmitted);</code>
             <code>            },</code>
-            <code>            _onSubmited: function (e) {</code>
+            <code>            _onSubmitted: function (e) {</code>
             <code>                if (this._submitButton.isDisabled()) {</code>
             <code>                    e.preventDefault();</code>
             <code>                } else {</code>
@@ -764,7 +764,7 @@
             <code>                }</code>
             <code>            }</code>
             <code>        });</code>
-            <code>        <mark>provide(form);</mark></code>
+            <code>        <mark>provide(Form);</mark></code>
             <code>    <mark>}</mark></code>
             <code><mark>);</mark></code>
         </pre>
