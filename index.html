@@ -12,7 +12,7 @@
 <header class="caption">
     <h1>BEViS & bt</h1>
     <p>Марат Дулин, Вадим Макишвили</p>
-    <p>CodeFest 2014</p>
+    <p>РИТ 2014</p>
 </header>
 <section class='slide cover'>
     <div class='slidein'>
@@ -27,11 +27,12 @@
             <br>
             <div class="slogan">& bt</div>
         </div>
-        <p class="note"></p>
 
+<!--
         <div class="we">
             <img src="pictures/people/beavis-and-butthead.png" class="folks"/>
         </div>
+-->
     </div>
 </section>
 
@@ -198,7 +199,7 @@
     <div class='slidein'>
         <h2>Блок - это</h2>
 
-        <ol>
+        <ol style="font-size: 130%; margin-left: -30px;">
             <li>HTML-cтруктура</li>
             <li>CSS-представление</li>
             <li>JS-поведение</li>
@@ -296,6 +297,7 @@
 
         <pre class='small-medium'>
             <code>&lt;div class="header"&gt;</code>
+            <code>    РИТ 2014</code>
             <code>&lt;/div&gt;</code>
         </pre>
     </div>
@@ -305,9 +307,10 @@
     <div class='slidein'>
         <h2>Абстрактный декларативный шаблон</h2>
 
-        <pre class=''>
+        <pre class='medium'>
             <code>header {</code>
-            <code>    <mark>tag: div;</mark></code>
+            <code>    tag: div;</code>
+            <code>    content: 'РИТ 2014'</code>
             <code>}</code>
         </pre>
     </div>
@@ -317,22 +320,25 @@
     <div class='slidein'>
         <h2>Абстрактный декларативный шаблон</h2>
 
-        <pre class=''>
+        <pre class='medium'>
             <code>header {</code>
-            <code>    <mark>tag: div;</mark></code>
+            <code>    tag: div;</code>
+            <code>    content: 'РИТ 2014'</code>
             <code>}</code>
         </pre>
 
         <h2>Реальный декларативный шаблон</h2>
 
-        <pre class=''>
+        <pre class='medium'>
             <code>bt.match('header', function (ctx) {</code>
-            <code>    <mark>ctx.setTag('div');</mark> </code>
+            <code>    ctx.setTag('div'); </code>
+            <code>    ctx.setContent('РИТ 2014'); </code>
             <code>});</code>
         </pre>
     </div>
 </section>
 
+<!--
 <section class='slide'>
     <div class='slidein'>
         <h2>Делаем шаблон умнее</h2>
@@ -342,12 +348,13 @@
             <code>    ctx.setTag('<mark>div</mark>');</code>
             <code>    ctx.setContent({ <mark class="comment">// Генерим внутри шапки новый JSON</mark> </code>
             <code>        elem: 'title', <mark class="comment">// создаём элемент title в содержимом</mark></code>
-            <code>        titleText: 'CodeFest 2014' <mark class="comment">// параметром передаём в него текст</mark></code>
+            <code>        titleText: 'РИТ 2014' <mark class="comment">// параметром передаём в него текст</mark></code>
             <code>    });</code>
             <code>});</code>
         </pre>
     </div>
 </section>
+-->
 
 <!--
 <section class='slide'>
@@ -368,6 +375,7 @@
 </section>
 
 -->
+<!--
 <section class='slide'>
     <div class='slidein'>
         <h2>Делаем шаблон умнее</h2>
@@ -377,7 +385,7 @@
             <code>    ctx.setTag('<mark>div</mark>');</code>
             <code>    ctx.setContent({</code>
             <code>        elem: 'title',</code>
-            <code>        titleText: 'CodeFest 2014'</code>
+            <code>        titleText: 'РИТ 2014'</code>
             <code>    });</code>
             <code>});</code>
             <code>bt.match('<mark>header__title</mark>', function (ctx) {</code>
@@ -389,6 +397,7 @@
         </pre>
     </div>
 </section>
+-->
 
 <section class='slide'>
     <div class='slidein'>
@@ -396,7 +405,7 @@
 
         <pre class=''>
             <code>&lt;div class="header"&gt;</code>
-            <code>    &lt;h1 class="header__title"&gt;CodeFest 2014&lt;/h1&gt;</code>
+            <code>    РИТ 2014</code>
             <code>&lt;/div&gt;</code>
         </pre>
     </div>
@@ -485,7 +494,7 @@
     view: 'islet-search',
     showBoard: true,
     serviceName: 'Карты',
-    searchQuery: 'Новосибирск'
+    searchQuery: 'Москва'
 }</textarea>
 
             <div id="live-header-demo"></div>
@@ -518,7 +527,7 @@
 
 <section class='slide'>
     <div class='slidein'>
-        <h2>Мы так не делаем</h2>
+        <h2>Мы часто смешивали блоки</h2>
 
         <pre class="">
             <code>&lt;div class="<mark class="one">header</mark> <mark class="one">authorization</mark>"&gt;</code>
@@ -529,19 +538,28 @@
 
 <section class='slide cover'>
     <div class='slidein'>
-        <div style="position: absolute; bottom: -20px; right: -30px; text-align: right;">
+        <div style="position: absolute; bottom: -20px; right: -30px; text-align: right; z-index: 2">
             <h2 style="font-size: 50%; color: #000000">Г.Данелия, 1977<br>В.Кикабидзе<br>&laquo;Мимино&raquo;</h2>
         </div>
 
-        <img src="pictures/mimino.jpg" alt="">
+        <video width="100%" height="100%" controls style="z-index: 1;" poster="pictures/mimino.jpg">
+            <source src="pictures/mimino.mp4" type="video/mp4">
+        </video>
     </div>
 </section>
 
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>Бивис не смешивает блоки</h2>
+    </div>
+</section>
+
+<!--
 <section class='slide'>
     <div class='slidein'>
-        <h2>View</h2>
+        <h2>Один блок — одно имя</h2>
 
-        <pre class=''>
+        <pre>
             <code>{</code>
             <code>    block: "header", </code>
             <code>    <mark>view: "search"</mark></code>
@@ -558,10 +576,11 @@
         </div>
     </div>
 </section>
+-->
 
 <section class='slide'>
     <div class='slidein'>
-        <h2>Кто-то пишет так</h2>
+        <h2>Мы часто модифицировали блок</h2>
 
         <pre class="">
             <code>&lt;div class="<mark class="one">button</mark> <mark class="two">button_theme_normal</mark> <mark class="two">button_shadow_yes</mark>"&gt;</code>
@@ -571,9 +590,23 @@
     </div>
 </section>
 
+<section class='slide shout'>
+    <div class='slidein'>
+        <h2>Один блок —<br>одно имя&nbsp;&nbsp;</h2>
+    </div>
+</section>
+
 <section class='slide'>
     <div class='slidein'>
-        <h2>Бивис делает иначе</h2>
+        <h2>Просто имя</h2>
+
+        <pre class="">
+            <code>&lt;div class="<mark class="one">button</mark>"&gt;</code>
+            <code>    нажми меня</code>
+            <code>&lt;/div&gt;</code>
+        </pre>
+
+        <h2>Имя + фамилия</h2>
 
         <pre class="">
             <code>&lt;div class="<mark class="one">button_normal-shadow</mark>"&gt;</code>
@@ -586,21 +619,13 @@
 
 <section class='slide'>
     <div class='slidein'>
-        <h2>Простой JSON</h2>
+        <h2>View</h2>
 
         <pre class=''>
             <code>{</code>
             <code>    block: "button", </code>
-            <code>    view: "normal-shadow"</code>
+            <code>    <mark class="one">view: "normal-shadow"</mark></code>
             <code>}</code>
-        </pre>
-
-        <h2>Простой HTML</h2>
-
-        <pre class="">
-            <code>&lt;div class="<mark class="one">button_normal-shadow</mark>"&gt;</code>
-            <code>    нажми меня</code>
-            <code>&lt;/div&gt;</code>
         </pre>
     </div>
 </section>
