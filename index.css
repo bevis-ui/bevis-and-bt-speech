@@ -222,8 +222,8 @@ section:not(.slide-iframe)::before
 .schema .fs {
 
     font-family: 'TextbookNew-Regular', "PT Mono", monospace;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 26px;
+    line-height: 26px;
     font-style: normal;
 
     display: inline-block;
