@@ -39,6 +39,15 @@ section:not(.slide-iframe)::before
     background: #fff;
 }
 
+#Cover .def
+{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+
+    text-align: right;
+}
+
 .slide.cover .slidein
 {
     background: none;
