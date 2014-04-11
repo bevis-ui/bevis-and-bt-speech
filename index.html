@@ -34,12 +34,12 @@
 
 <section class='slide'>
     <div class='slidein'>
-        <h2>BEViS, зачем ты нужен?</h2>
+        <h2>Зачем?</h2>
 
         <ol style="font-size: 130%; margin-left: -30px;">
-            <li>Верстать тяжёлые надёжные сайты</li>
-            <li>Внедрить в вёрстку полноценное API</li>
-            <li>Использовать только HTML, CSS, Javascript</li>
+            <li>Знать только один язык — Javascript</li>
+            <li>Внедрить в HTML строгое API</li>
+            <li>Создавать сайты повышенной надёжности</li>
         </ol>
 
         <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">... и получать от этого удовольствие ;)</p>
@@ -106,17 +106,9 @@
     </div>
 </section>
 
-<!--
-<section class='slide shout'>
-    <div class='slidein'>
-        <h2>Блок —<br> простой JSON</h2>
-    </div>
-</section>
--->
-
 <section class='slide cover'>
     <div class='slidein'>
-        <img src="pictures/bread.jpg" alt="">
+        <img src="pictures/bread-maker.jpg" alt="">
     </div>
 </section>
 
@@ -349,67 +341,6 @@
     </div>
 </section>
 
-<!--
-<section class='slide'>
-    <div class='slidein'>
-        <h2>Делаем шаблон умнее</h2>
-
-        <pre class='small-medium'>
-            <code>bt.match('<mark>header</mark>', function (ctx) {</code>
-            <code>    ctx.setTag('<mark>div</mark>');</code>
-            <code>    ctx.setContent({ <mark class="comment">// Генерим внутри шапки новый JSON</mark> </code>
-            <code>        elem: 'title', <mark class="comment">// создаём элемент title в содержимом</mark></code>
-            <code>        titleText: 'РИТ 2014' <mark class="comment">// параметром передаём в него текст</mark></code>
-            <code>    });</code>
-            <code>});</code>
-        </pre>
-    </div>
-</section>
--->
-
-<!--
-<section class='slide'>
-    <div class='slidein'>
-        <h2>Делаем шаблон умнее</h2>
-
-        <pre class='small-medium'>
-            <code>bt.match('<mark>header__title</mark>', function (ctx) {</code>
-            <code>    ctx.setTag('<mark>h1</mark>');</code>
-            <code> </code>
-            <code>    <mark class="comment">// Задаём содержимое заголовку из параметра titleText</mark></code>
-            <code>    ctx.setContent(</code>
-            <code>        ctx.getParam('titleText')</code>
-            <code>    );</code>
-            <code>});</code>
-        </pre>
-    </div>
-</section>
-
--->
-<!--
-<section class='slide'>
-    <div class='slidein'>
-        <h2>Делаем шаблон умнее</h2>
-
-        <pre class='small-medium'>
-            <code>bt.match('<mark>header</mark>', function (ctx) {</code>
-            <code>    ctx.setTag('<mark>div</mark>');</code>
-            <code>    ctx.setContent({</code>
-            <code>        elem: 'title',</code>
-            <code>        titleText: 'РИТ 2014'</code>
-            <code>    });</code>
-            <code>});</code>
-            <code>bt.match('<mark>header__title</mark>', function (ctx) {</code>
-            <code>    ctx.setTag('<mark>h1</mark>');</code>
-            <code>    ctx.setContent(</code>
-            <code>        ctx.getParam('titleText')</code>
-            <code>    );</code>
-            <code>});</code>
-        </pre>
-    </div>
-</section>
--->
-
 <section class='slide'>
     <div class='slidein'>
         <h2>Результат</h2>
@@ -554,7 +485,7 @@
         </div>
 
         <video width="100%" height="100%" controls style="z-index: 1;" poster="pictures/mimino.jpg">
-            <source src="pictures/mimino2.mp4" type="video/mp4">
+            <source src="pictures/mimino.mp4" type="video/mp4">
         </video>
     </div>
 </section>
@@ -564,30 +495,6 @@
         <h2>Бивис не смешивает блоки</h2>
     </div>
 </section>
-
-<!--
-<section class='slide'>
-    <div class='slidein'>
-        <h2>Один блок — одно имя</h2>
-
-        <pre>
-            <code>{</code>
-            <code>    block: "header", </code>
-            <code>    <mark>view: "search"</mark></code>
-            <code>}</code>
-        </pre>
-
-        <div class="next">
-            <h2>Финальный HTML</h2>
-
-            <pre class="">
-                <code>&lt;div class=<mark>"header_search</mark>"&gt;</code>
-                <code>&lt;/div&gt;</code>
-            </pre>
-        </div>
-    </div>
-</section>
--->
 
 <section class='slide'>
     <div class='slidein'>
@@ -934,35 +841,18 @@
 
 <section class="slide">
     <div class='slidein'>
-        <h2>BEViS, зачем ты нужен?</h2>
+        <h2>Теперь мы</h2>
 
         <ol style="font-size: 130%; margin-left: -30px;">
-            <li>Мы верстаем тяжелые надёжные сайты</li>
-            <li>Вёрстка на строгом и понятном API</li>
-            <li>HTML, CSS, Javascript и ничего больше</li>
+            <li>программируем только на Javascript</li>
+            <li>вёрстаем с настоящим API</li>
+            <li>легко создаём надёжные сайты</li>
         </ol>
 
-        <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">Это серьёзный инструмент с добрым лицом ;)</p>
+        <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">BEViS — серьёзный инструмент с добрым лицом ;)</p>
 
     </div>
 </section>
-
-<!--
-<section class="slide">
-    <div class='slidein'>
-        <h2>BEViS</h2>
-
-        <ul style="font-size: 28px;">
-            <li>Полноценный сайт на обычном JS</li>
-            <li>Покрыт юнит-тестами на 100%</li>
-            <li>Написан в понятном Сode Style</li>
-        </ul>
-
-        <p class="note" style="margin-left: 50px; margin-top: 200px; font-style: italic">Это серьёзный инструмент с добрым лицом ;)</p>
-
-    </div>
-</section>
--->
 
 <section class="slide shout">
     <div class='slidein'>

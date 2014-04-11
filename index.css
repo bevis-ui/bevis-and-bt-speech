@@ -41,8 +41,9 @@ section:not(.slide-iframe)::before
 
 #Cover .def
 {
+    font-size: 160%;
     position: absolute;
-    right: 20px;
+    right: 60px;
     bottom: 0;
 
     text-align: right;
