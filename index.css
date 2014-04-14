@@ -27,6 +27,9 @@ section:not(.slide-iframe)::before
 .slide:after
 {
     right: 20px;
+
+    color: #ccc;
+    background: none;
 }
 
 .slide .slidein,
@@ -134,7 +137,7 @@ section:not(.slide-iframe)::before
     position: relative;
     z-index: auto;
 
-    width: 250px;
+    height: 250px;
 }
 
 .schema {
