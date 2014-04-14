@@ -128,8 +128,8 @@ section:not(.slide-iframe)::before
 #Cover .we,
 #contacts .we {
     position: absolute;
-    bottom: 0;
-    right: 20px;
+    bottom: -20px;
+    right: 0px;
 }
 
 #Cover .we .folks,
